@@ -1,0 +1,4 @@
+Skeleton is a small lightweight PHP framework that i've wrote over the years, to use it in my projects.
+It is a MVC framework. It supports code generation (php bin/console/generate.php [table]).
+To set-up, modify config.ini,  to suit your needs (path and database).
+

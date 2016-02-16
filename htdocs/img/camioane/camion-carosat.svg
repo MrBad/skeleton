@@ -1,0 +1,551 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Untitled-Page%201" viewBox="0 0 240 150" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="240px" height="150px"
+>
+	<defs>
+		<linearGradient id="gradient1" x1="57.1823%" y1="49.5346%" x2="40.8361%" y2="49.5346%">
+			<stop stop-color="#fdbf2d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f05237" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient2" x1="63.2924%" y1="49.5346%" x2="34.726%" y2="49.5346%">
+			<stop stop-color="#f05237" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#fbb365" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient3" x1="70.4343%" y1="49.5346%" x2="27.5845%" y2="49.5346%">
+			<stop stop-color="#fbb365" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f37437" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient4" x1="57.1823%" y1="49.5346%" x2="40.8361%" y2="49.5346%">
+			<stop stop-color="#f37437" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f58333" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient5" x1="50.0047%" y1="53.956%" x2="50.0047%" y2="45.9517%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#919190" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient6" x1="50.0047%" y1="96.9813%" x2="50.0047%" y2="2.9264%">
+			<stop stop-color="#919190" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient7" x1="49.9339%" y1="58.9463%" x2="49.9339%" y2="40.9541%">
+			<stop stop-color="#bdbec0" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient8" x1="49.9339%" y1="68.9439%" x2="49.9339%" y2="30.9565%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient9" x1="49.9339%" y1="55.9482%" x2="49.9339%" y2="43.9522%">
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d1d2d3" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient10" x1="49.9339%" y1="65.9419%" x2="49.9339%" y2="33.9546%">
+			<stop stop-color="#d1d2d3" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient11" x1="50.0361%" y1="99.8708%" x2="50.0361%" y2="-0.3353%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient12" x1="49.9933%" y1="62.9729%" x2="49.9933%" y2="36.9742%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient13" x1="49.9933%" y1="87.972%" x2="49.9933%" y2="11.9751%">
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient14" x1="49.9933%" y1="-0.001%" x2="49.9933%" y2="108.4421%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#e1e2e3" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<radialGradient id="gradient15" cx="49.9126%" cy="50.0546%" r="50.1335%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="60%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient16" cx="49.9126%" cy="50.0546%" r="30.0872%">
+			<stop stop-color="#363435" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient17" cx="49.9928%" cy="49.7661%" r="49.9506%">
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="38.82%"/>
+			<stop stop-color="#676565" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#676565" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient18" cx="49.9928%" cy="49.7661%" r="19.9806%">
+			<stop stop-color="#696766" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<linearGradient id="gradient19" x1="50.0741%" y1="63.0169%" x2="50.0741%" y2="36.9667%">
+			<stop stop-color="#c7c8c9" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#9fa0a3" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient20" x1="50.0741%" y1="88.0679%" x2="50.0741%" y2="11.9195%">
+			<stop stop-color="#9fa0a3" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d1d2d3" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient21" x1="49.7837%" y1="-0.131%" x2="49.7837%" y2="106.1494%">
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#aaadb0" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient22" x1="49.8241%" y1="100.8226%" x2="49.8241%" y2="-0.8155%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient23" x1="50.0255%" y1="0.6695%" x2="50.0255%" y2="108.2986%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<radialGradient id="gradient24" cx="51.934%" cy="49.1586%" r="51.4492%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="58.82%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient25" cx="51.934%" cy="49.1586%" r="30.8659%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient26" cx="51.934%" cy="50.7922%" r="51.4492%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="58.82%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient27" cx="51.934%" cy="50.7922%" r="30.8659%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient28" cx="48.1673%" cy="51.5933%" r="53.3971%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="54.12%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="65.1%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient29" cx="48.1673%" cy="51.5933%" r="28.8392%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient30" cx="50.3485%" cy="48.3603%" r="53.4555%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="54.12%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="65.1%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient31" cx="50.3485%" cy="48.3603%" r="28.8688%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient32" cx="51.138%" cy="49.9538%" r="51.4178%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="58.82%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient33" cx="51.138%" cy="49.9538%" r="30.8507%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient34" cx="52.8504%" cy="49.9538%" r="51.5594%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="58.82%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient35" cx="52.8504%" cy="49.9538%" r="30.9295%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient36" cx="48.1673%" cy="51.5799%" r="53.4563%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="52.16%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="63.14%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient37" cx="48.1673%" cy="51.5799%" r="27.7951%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient38" cx="48.3082%" cy="54.7768%" r="53.4557%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="52.16%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="63.14%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient39" cx="48.3082%" cy="54.7768%" r="27.7944%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient40" cx="42.1398%" cy="50.0132%" r="51.0277%">
+			<stop stop-color="#faa931" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#faa931" stop-opacity="1" offset="58.04%"/>
+			<stop stop-color="#faa333" stop-opacity="1" offset="65.88%"/>
+			<stop stop-color="#faa333" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient41" cx="42.1398%" cy="50.0132%" r="29.5961%">
+			<stop stop-color="#fdbf2d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#faa931" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<linearGradient id="gradient42" x1="108.668%" y1="9.5522%" x2="-4.3709%" y2="91.3193%">
+			<stop stop-color="#fbd726" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#faa333" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient43" x1="50.0127%" y1="100.0398%" x2="50.0127%" y2="-0.1526%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient44" x1="24.9734%" y1="50.1299%" x2="74.9752%" y2="50.1299%">
+			<stop stop-color="#faa931" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#fcd526" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient45" x1="24.9734%" y1="50.1299%" x2="74.9752%" y2="50.1299%">
+			<stop stop-color="#fcd526" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#faa333" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<radialGradient id="gradient46" cx="50.0692%" cy="49.8956%" r="50.133%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="60%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient47" cx="50.0692%" cy="49.8956%" r="30.0794%">
+			<stop stop-color="#363435" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient48" cx="49.9193%" cy="50.3157%" r="49.9109%">
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="38.82%"/>
+			<stop stop-color="#676565" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#676565" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient49" cx="49.9193%" cy="50.3157%" r="19.9648%">
+			<stop stop-color="#696766" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<linearGradient id="gradient50" x1="49.9623%" y1="62.9034%" x2="49.9623%" y2="36.8569%">
+			<stop stop-color="#c7c8c9" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#9fa0a3" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient51" x1="49.9623%" y1="87.9543%" x2="49.9623%" y2="11.806%">
+			<stop stop-color="#9fa0a3" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d1d2d3" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient52" x1="49.6643%" y1="0.4984%" x2="49.6643%" y2="106.7995%">
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#aaadb0" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient53" x1="49.5614%" y1="100.5548%" x2="49.5614%" y2="-1.0503%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient54" x1="49.7489%" y1="0.2209%" x2="49.7489%" y2="107.8932%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<radialGradient id="gradient55" cx="50.1267%" cy="47.932%" r="51.5123%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="58.82%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient56" cx="50.1267%" cy="47.932%" r="30.9138%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient57" cx="50.1267%" cy="49.7249%" r="51.4335%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="58.82%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient58" cx="50.1267%" cy="49.7249%" r="30.8664%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient59" cx="46.4548%" cy="48.5134%" r="53.4557%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="54.12%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="65.1%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient60" cx="46.4548%" cy="48.5134%" r="28.8687%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient61" cx="48.446%" cy="47.197%" r="53.4559%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="54.12%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="65.1%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient62" cx="48.446%" cy="47.197%" r="28.8688%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient63" cx="49.1703%" cy="54.3229%" r="51.4648%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="58.82%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient64" cx="49.1703%" cy="54.3229%" r="30.882%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient65" cx="51.0027%" cy="54.364%" r="51.4176%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="58.82%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="70.98%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient66" cx="51.0027%" cy="54.364%" r="30.8505%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient67" cx="46.4548%" cy="56.7418%" r="53.4557%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="52.16%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="61.96%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient68" cx="46.4548%" cy="56.7418%" r="27.7946%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient69" cx="52.8106%" cy="53.728%" r="53.4561%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="52.16%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="63.14%"/>
+			<stop stop-color="#989b9e" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<radialGradient id="gradient70" cx="52.8106%" cy="53.728%" r="27.795%">
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="100%"/>
+		</radialGradient>
+		<linearGradient id="gradient71" x1="49.8692%" y1="34.849%" x2="49.8692%" y2="61.7955%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient72" x1="49.8692%" y1="8.9409%" x2="49.8692%" y2="87.7035%">
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient73" x1="45.7493%" y1="-10.796%" x2="56.4919%" y2="125.645%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#e1e2e3" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient74" x1="49.927%" y1="54.7302%" x2="49.927%" y2="44.7562%">
+			<stop stop-color="#fdbf2d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#fcdd5d" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient75" x1="49.927%" y1="57.7164%" x2="49.927%" y2="41.7623%">
+			<stop stop-color="#fcdd5d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#fcd954" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient76" x1="49.927%" y1="60.7098%" x2="49.927%" y2="38.7688%">
+			<stop stop-color="#fcd954" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#fdbf2d" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient77" x1="49.927%" y1="77.6568%" x2="49.927%" y2="21.8218%">
+			<stop stop-color="#fdbf2d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#ffcd2a" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient78" x1="49.7144%" y1="37.1094%" x2="49.7144%" y2="63.0659%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient79" x1="49.7144%" y1="12.1506%" x2="49.7144%" y2="88.0226%">
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient80" x1="50.0918%" y1="0.4987%" x2="50.0918%" y2="100.5642%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#3c3a3a" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient81" x1="49.5131%" y1="96.1882%" x2="49.5131%" y2="4.1762%">
+			<stop stop-color="#4d4d4d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient82" x1="49.5131%" y1="56.3146%" x2="49.5131%" y2="44.0497%">
+			<stop stop-color="#9da1a2" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#676565" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient83" x1="36.1391%" y1="49.7454%" x2="62.2688%" y2="49.7454%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient84" x1="11.0164%" y1="49.7454%" x2="87.3924%" y2="49.7454%">
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient85" x1="46.9846%" y1="30.4587%" x2="49.8838%" y2="65.7202%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient86" x1="46.9846%" y1="30.4587%" x2="49.8838%" y2="65.7202%">
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient87" x1="47.7182%" y1="39.2711%" x2="49.1633%" y2="56.897%">
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#ffffff" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient88" x1="48.082%" y1="43.6823%" x2="48.8041%" y2="52.4953%">
+			<stop stop-color="#ffffff" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#e3e3e5" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient89" x1="48.1478%" y1="43.6782%" x2="48.8533%" y2="52.4912%">
+			<stop stop-color="#e3e3e5" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#e1e0e2" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient90" x1="47.9085%" y1="41.481%" x2="48.9887%" y2="54.6956%">
+			<stop stop-color="#e1e0e2" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient91" x1="47.7962%" y1="40.3724%" x2="49.0667%" y2="55.8071%">
+			<stop stop-color="#f2f3f4" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#d2d3da" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient92" x1="58.8422%" y1="49.953%" x2="42.7438%" y2="49.953%">
+			<stop stop-color="#fdbf2d" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f05237" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient93" x1="64.8786%" y1="49.953%" x2="36.7074%" y2="49.953%">
+			<stop stop-color="#f05237" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#fbb365" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient94" x1="71.9242%" y1="49.953%" x2="29.6619%" y2="49.953%">
+			<stop stop-color="#fbb365" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f37437" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="gradient95" x1="58.8422%" y1="49.953%" x2="42.7438%" y2="49.953%">
+			<stop stop-color="#f37437" stop-opacity="1" offset="0%"/>
+			<stop stop-color="#f58333" stop-opacity="1" offset="100%"/>
+		</linearGradient>
+	</defs>
+	<g id="Layer%201">
+		<g id="camion-carosat">
+			<path id="st0" d="M 203.7 117.9 C 204.5 117.9 205.1 117.3 205.1 116.5 L 205.1 112.5 C 205.1 111.7 204.5 111.1 203.7 111.1 L 202.8 111.1 C 202 111.1 201.4 111.7 201.4 112.5 L 201.4 116.5 C 201.4 117.3 202 117.9 202.8 117.9 L 203.7 117.9 L 203.7 117.9 Z" fill="url(#gradient1)"/>
+			<path id="st1" d="M 203.7 117.9 C 204.5 117.9 205.1 117.3 205.1 116.5 L 205.1 112.5 C 205.1 111.7 204.5 111.1 203.7 111.1 L 202.8 111.1 C 202 111.1 201.4 111.7 201.4 112.5 L 201.4 116.5 C 201.4 117.3 202 117.9 202.8 117.9 L 203.7 117.9 L 203.7 117.9 Z" fill="url(#gradient2)"/>
+			<path id="st2" d="M 203.7 117.9 C 204.5 117.9 205.1 117.3 205.1 116.5 L 205.1 112.5 C 205.1 111.7 204.5 111.1 203.7 111.1 L 202.8 111.1 C 202 111.1 201.4 111.7 201.4 112.5 L 201.4 116.5 C 201.4 117.3 202 117.9 202.8 117.9 L 203.7 117.9 L 203.7 117.9 Z" fill="url(#gradient3)"/>
+			<path id="st3" d="M 203.7 117.9 C 204.5 117.9 205.1 117.3 205.1 116.5 L 205.1 112.5 C 205.1 111.7 204.5 111.1 203.7 111.1 L 202.8 111.1 C 202 111.1 201.4 111.7 201.4 112.5 L 201.4 116.5 C 201.4 117.3 202 117.9 202.8 117.9 L 203.7 117.9 L 203.7 117.9 Z" fill="url(#gradient4)"/>
+			<path id="st4" d="M 202.2 118.3 C 202.2 119.7 201 120.9 199.6 120.9 L 47.1 120.9 C 45.7 120.9 44.5 119.7 44.5 118.3 L 44.5 101.3 C 44.5 99.9 45.7 98.7 47.1 98.7 L 199.5 98.7 C 200.9 98.7 202.1 99.9 202.1 101.3 L 202.1 118.3 L 202.2 118.3 Z" fill="url(#gradient5)"/>
+			<path id="st5" d="M 202.2 118.3 C 202.2 119.7 201 120.9 199.6 120.9 L 47.1 120.9 C 45.7 120.9 44.5 119.7 44.5 118.3 L 44.5 101.3 C 44.5 99.9 45.7 98.7 47.1 98.7 L 199.5 98.7 C 200.9 98.7 202.1 99.9 202.1 101.3 L 202.1 118.3 L 202.2 118.3 Z" fill="url(#gradient6)"/>
+			<path id="st6" d="M 124.2 124.4 C 124.2 125.1 123.6 125.7 122.9 125.7 L 91.1 125.7 C 90.4 125.7 89.8 125.1 89.8 124.4 L 89.8 108.7 C 89.8 108 90.4 107.4 91.1 107.4 L 122.9 107.4 C 123.6 107.4 124.2 108 124.2 108.7 L 124.2 124.4 L 124.2 124.4 Z" fill="url(#gradient7)"/>
+			<path id="st7" d="M 124.2 124.4 C 124.2 125.1 123.6 125.7 122.9 125.7 L 91.1 125.7 C 90.4 125.7 89.8 125.1 89.8 124.4 L 89.8 108.7 C 89.8 108 90.4 107.4 91.1 107.4 L 122.9 107.4 C 123.6 107.4 124.2 108 124.2 108.7 L 124.2 124.4 L 124.2 124.4 Z" fill="url(#gradient8)"/>
+			<path id="st8" d="M 124.2 124.4 C 124.2 125.1 123.6 125.7 122.9 125.7 L 91.1 125.7 C 90.4 125.7 89.8 125.1 89.8 124.4 L 89.8 108.7 C 89.8 108 90.4 107.4 91.1 107.4 L 122.9 107.4 C 123.6 107.4 124.2 108 124.2 108.7 L 124.2 124.4 L 124.2 124.4 Z" fill="url(#gradient9)"/>
+			<path id="st9" d="M 124.2 124.4 C 124.2 125.1 123.6 125.7 122.9 125.7 L 91.1 125.7 C 90.4 125.7 89.8 125.1 89.8 124.4 L 89.8 108.7 C 89.8 108 90.4 107.4 91.1 107.4 L 122.9 107.4 C 123.6 107.4 124.2 108 124.2 108.7 L 124.2 124.4 L 124.2 124.4 Z" fill="url(#gradient10)"/>
+			<path id="st10" d="M 101.4 125.7 L 101.8 125.7 L 101.8 107.4 L 101.4 107.4 L 101.4 125.7 Z" fill="#b3b3b3"/>
+			<path id="st11" d="M 101.1 125.7 L 101.6 125.7 L 101.6 107.4 L 101.1 107.4 L 101.1 125.7 Z" fill="#404040"/>
+			<path id="st102" d="M 114 125.7 L 114.5 125.7 L 114.5 107.4 L 114 107.4 L 114 125.7 Z" fill="#b3b3b3"/>
+			<path id="st112" d="M 113.7 125.7 L 114.2 125.7 L 114.2 107.4 L 113.7 107.4 L 113.7 125.7 Z" fill="#404040"/>
+			<path id="st12" d="M 160.6 129.4 C 160.6 117.6 169.2 108.1 179.9 108.1 C 190.6 108.1 199.2 117.7 199.2 129.4 L 160.6 129.4 L 160.6 129.4 L 160.6 129.4 Z" fill="url(#gradient11)"/>
+			<path id="st13" d="M 214.8 13.4 L 214.8 109.2 C 214.8 109.8 214.3 110.3 213.6 110.3 L 86.6 110.3 C 86 110.3 85.4 109.8 85.4 109.2 L 85.4 13.4 C 85.4 12.8 85.9 12.3 86.6 12.3 " fill="#b8b8b8"/>
+			<path id="st132" d="M 86.7 12.3 L 213.7 12.3 C 214.3 12.3 214.9 12.8 214.9 13.4 " fill="#b8b8b8"/>
+			<path id="st14" d="M 212.7 107.6 C 212.7 108.2 212.2 108.6 211.6 108.6 L 88.7 108.6 C 88.1 108.6 87.6 108.2 87.6 107.6 L 87.6 15.1 C 87.6 14.5 88.1 14.1 88.7 14.1 L 211.6 14.1 C 212.2 14.1 212.7 14.5 212.7 15.1 L 212.7 107.6 L 212.7 107.6 Z" fill="url(#gradient12)"/>
+			<path id="st15" d="M 212.7 107.6 C 212.7 108.2 212.2 108.6 211.6 108.6 L 88.7 108.6 C 88.1 108.6 87.6 108.2 87.6 107.6 L 87.6 15.1 C 87.6 14.5 88.1 14.1 88.7 14.1 L 211.6 14.1 C 212.2 14.1 212.7 14.5 212.7 15.1 L 212.7 107.6 L 212.7 107.6 Z" fill="url(#gradient13)"/>
+			<path id="st16" d="M 212.7 70.2 L 212.7 15.1 C 212.7 14.5 212.2 14.1 211.6 14.1 L 88.7 14.1 C 88.1 14.1 87.6 14.5 87.6 15.1 L 87.6 29.1 C 112.7 47.1 170.7 75.7 212.7 70.2 L 212.7 70.2 Z" fill="url(#gradient14)"/>
+			<path id="st17" d="M 179.9 142.8 C 171.5 142.8 164.8 136 164.8 127.7 C 164.8 119.4 171.6 112.6 179.9 112.6 C 188.3 112.6 195 119.4 195 127.7 C 195 136 188.3 142.8 179.9 142.8 " fill="url(#gradient15)"/>
+			<path id="st18" d="M 179.9 142.8 C 171.5 142.8 164.8 136 164.8 127.7 C 164.8 119.4 171.6 112.6 179.9 112.6 C 188.3 112.6 195 119.4 195 127.7 C 195 136 188.3 142.8 179.9 142.8 " fill="url(#gradient16)"/>
+			<path id="st19" d="M 179.7 113.9 C 187.5 113.9 193.7 120.1 194 127.8 C 194 127.7 194 127.5 194 127.4 C 194 119.5 187.6 113.1 179.7 113.1 C 171.8 113.1 165.4 119.5 165.4 127.4 C 165.4 127.5 165.4 127.7 165.4 127.8 C 165.7 120.1 172 113.9 179.7 113.9 L 179.7 113.9 Z" fill="url(#gradient17)"/>
+			<path id="st20" d="M 179.7 113.9 C 187.5 113.9 193.7 120.1 194 127.8 C 194 127.7 194 127.5 194 127.4 C 194 119.5 187.6 113.1 179.7 113.1 C 171.8 113.1 165.4 119.5 165.4 127.4 C 165.4 127.5 165.4 127.7 165.4 127.8 C 165.7 120.1 172 113.9 179.7 113.9 L 179.7 113.9 Z" fill="url(#gradient18)"/>
+			<path id="st21" d="M 189.3 127.7 C 189.3 132.9 185.1 137.1 179.9 137.1 C 174.7 137.1 170.5 132.9 170.5 127.7 C 170.5 122.5 174.7 118.3 179.9 118.3 C 185.1 118.3 189.3 122.5 189.3 127.7 L 189.3 127.7 Z" fill="url(#gradient19)"/>
+			<path id="st22" d="M 189.3 127.7 C 189.3 132.9 185.1 137.1 179.9 137.1 C 174.7 137.1 170.5 132.9 170.5 127.7 C 170.5 122.5 174.7 118.3 179.9 118.3 C 185.1 118.3 189.3 122.5 189.3 127.7 L 189.3 127.7 Z" fill="url(#gradient20)"/>
+			<path id="st23" d="M 179.9 118.3 C 176.4 118.3 173.3 120.2 171.8 123.1 C 175.2 126.8 181 131 189.1 130.1 C 189.3 129.4 189.4 128.6 189.4 127.8 C 189.3 122.5 185.1 118.3 179.9 118.3 L 179.9 118.3 Z" fill="url(#gradient21)"/>
+			<path id="st24" d="M 184.3 128.1 C 184.3 130.5 182.4 132.5 179.9 132.5 C 177.5 132.5 175.5 130.6 175.5 128.1 C 175.5 125.7 177.4 123.7 179.9 123.7 C 182.4 123.7 184.3 125.6 184.3 128.1 L 184.3 128.1 Z" fill="#353635"/>
+			<path id="st25" d="M 184 127.7 C 184 129.9 182.2 131.7 180 131.7 C 177.8 131.7 176 129.9 176 127.7 C 176 125.5 177.8 123.7 180 123.7 C 182.2 123.7 184 125.5 184 127.7 L 184 127.7 Z" fill="url(#gradient22)"/>
+			<path id="st26" d="M 179.9 123.6 C 178.4 123.6 177.1 124.4 176.4 125.6 C 177.8 127.2 180.4 129.1 183.9 128.6 C 184 128.3 184 128 184 127.6 C 184 125.4 182.2 123.6 179.9 123.6 L 179.9 123.6 L 179.9 123.6 Z" fill="url(#gradient23)"/>
+			<path id="st27" d="M 180.8 134.9 C 180.8 135.4 180.4 135.8 179.9 135.8 C 179.4 135.8 179 135.4 179 134.9 C 179 134.4 179.4 134 179.9 134 C 180.4 134 180.8 134.4 180.8 134.9 L 180.8 134.9 Z" fill="url(#gradient24)"/>
+			<path id="st28" d="M 180.8 134.9 C 180.8 135.4 180.4 135.8 179.9 135.8 C 179.4 135.8 179 135.4 179 134.9 C 179 134.4 179.4 134 179.9 134 C 180.4 134 180.8 134.4 180.8 134.9 L 180.8 134.9 Z" fill="url(#gradient25)"/>
+			<path id="st29" d="M 180.8 120.5 C 180.8 121 180.4 121.4 179.9 121.4 C 179.4 121.4 179 121 179 120.5 C 179 120 179.4 119.6 179.9 119.6 C 180.4 119.6 180.8 120 180.8 120.5 L 180.8 120.5 Z" fill="url(#gradient26)"/>
+			<path id="st30" d="M 180.8 120.5 C 180.8 121 180.4 121.4 179.9 121.4 C 179.4 121.4 179 121 179 120.5 C 179 120 179.4 119.6 179.9 119.6 C 180.4 119.6 180.8 120 180.8 120.5 L 180.8 120.5 Z" fill="url(#gradient27)"/>
+			<path id="st31" d="M 185.7 132.1 C 186.1 132.5 186.1 133 185.7 133.4 C 185.3 133.8 184.8 133.8 184.4 133.4 C 184 133 184 132.5 184.4 132.1 C 184.7 131.7 185.3 131.7 185.7 132.1 L 185.7 132.1 Z" fill="url(#gradient28)"/>
+			<path id="st32" d="M 185.7 132.1 C 186.1 132.5 186.1 133 185.7 133.4 C 185.3 133.8 184.8 133.8 184.4 133.4 C 184 133 184 132.5 184.4 132.1 C 184.7 131.7 185.3 131.7 185.7 132.1 L 185.7 132.1 Z" fill="url(#gradient29)"/>
+			<path id="st33" d="M 175.5 122 C 175.9 122.4 175.9 122.9 175.5 123.3 C 175.1 123.7 174.6 123.7 174.2 123.3 C 173.8 122.9 173.8 122.4 174.2 122 C 174.6 121.6 175.2 121.6 175.5 122 L 175.5 122 Z" fill="url(#gradient30)"/>
+			<path id="st34" d="M 175.5 122 C 175.9 122.4 175.9 122.9 175.5 123.3 C 175.1 123.7 174.6 123.7 174.2 123.3 C 173.8 122.9 173.8 122.4 174.2 122 C 174.6 121.6 175.2 121.6 175.5 122 L 175.5 122 Z" fill="url(#gradient31)"/>
+			<path id="st35" d="M 187.1 126.8 C 187.6 126.8 188 127.2 188 127.7 C 188 128.2 187.6 128.6 187.1 128.6 C 186.6 128.6 186.2 128.2 186.2 127.7 C 186.2 127.2 186.6 126.8 187.1 126.8 L 187.1 126.8 Z" fill="url(#gradient32)"/>
+			<path id="st36" d="M 187.1 126.8 C 187.6 126.8 188 127.2 188 127.7 C 188 128.2 187.6 128.6 187.1 128.6 C 186.6 128.6 186.2 128.2 186.2 127.7 C 186.2 127.2 186.6 126.8 187.1 126.8 L 187.1 126.8 Z" fill="url(#gradient33)"/>
+			<path id="st37" d="M 172.7 126.8 C 173.2 126.8 173.6 127.2 173.6 127.7 C 173.6 128.2 173.2 128.6 172.7 128.6 C 172.2 128.6 171.8 128.2 171.8 127.7 C 171.8 127.2 172.2 126.8 172.7 126.8 L 172.7 126.8 Z" fill="url(#gradient34)"/>
+			<path id="st38" d="M 172.7 126.8 C 173.2 126.8 173.6 127.2 173.6 127.7 C 173.6 128.2 173.2 128.6 172.7 128.6 C 172.2 128.6 171.8 128.2 171.8 127.7 C 171.8 127.2 172.2 126.8 172.7 126.8 L 172.7 126.8 Z" fill="url(#gradient35)"/>
+			<path id="st39" d="M 184.4 122 C 184.8 121.6 185.3 121.6 185.7 122 C 186.1 122.4 186.1 122.9 185.7 123.3 C 185.3 123.7 184.8 123.7 184.4 123.3 C 184 122.9 184 122.3 184.4 122 L 184.4 122 Z" fill="url(#gradient36)"/>
+			<path id="st40" d="M 184.4 122 C 184.8 121.6 185.3 121.6 185.7 122 C 186.1 122.4 186.1 122.9 185.7 123.3 C 185.3 123.7 184.8 123.7 184.4 123.3 C 184 122.9 184 122.3 184.4 122 L 184.4 122 Z" fill="url(#gradient37)"/>
+			<path id="st41" d="M 174.2 132.1 C 174.6 131.7 175.1 131.7 175.5 132.1 C 175.9 132.5 175.9 133 175.5 133.4 C 175.1 133.8 174.6 133.8 174.2 133.4 C 173.9 133 173.9 132.5 174.2 132.1 L 174.2 132.1 Z" fill="url(#gradient38)"/>
+			<path id="st42" d="M 174.2 132.1 C 174.6 131.7 175.1 131.7 175.5 132.1 C 175.9 132.5 175.9 133 175.5 133.4 C 175.1 133.8 174.6 133.8 174.2 133.4 C 173.9 133 173.9 132.5 174.2 132.1 L 174.2 132.1 Z" fill="url(#gradient39)"/>
+			<path id="st43" d="M 68.1 107.3 C 75.1 107.2 83.7 107.9 83.7 107.3 C 83.6 106.7 83.5 32.1 83.5 32.1 C 83.5 32.1 48.9 31 44.3 34.3 C 39.7 37.6 23.9 50.2 23.4 83.3 C 23 119.1 21.5 119 24 121.2 C 26.5 123.4 51.2 122 51.2 122 C 53.6 113.5 60.2 107.3 68.1 107.3 L 68.1 107.3 Z" fill="url(#gradient40)"/>
+			<path id="st44" d="M 68.1 107.3 C 75.1 107.2 83.7 107.9 83.7 107.3 C 83.6 106.7 83.5 32.1 83.5 32.1 C 83.5 32.1 48.9 31 44.3 34.3 C 39.7 37.6 23.9 50.2 23.4 83.3 C 23 119.1 21.5 119 24 121.2 C 26.5 123.4 51.2 122 51.2 122 C 53.6 113.5 60.2 107.3 68.1 107.3 L 68.1 107.3 Z" fill="url(#gradient41)"/>
+			<path id="st45" d="M 82.4 33.3 C 82.4 33.3 48.6 32.2 44.1 35.5 C 43.7 35.7 42.8 36.4 42.9 36.4 C 48.4 32.4 81.8 33.9 81.8 33.9 C 81.8 33.9 81.7 97.5 81.8 106.5 C 82.4 106.5 82.7 106.4 82.7 106.3 C 82.5 105.8 82.4 33.3 82.4 33.3 L 82.4 33.3 Z" fill="url(#gradient42)"/>
+			<path id="st46" d="M 48 128.5 C 48 116.7 56.6 107.2 67.3 107.2 C 78 107.2 86.6 116.8 86.6 128.5 L 48 128.5 L 48 128.5 L 48 128.5 Z" fill="url(#gradient43)"/>
+			<path id="st47" d="M 46.9 117.4 C 51.1 107.8 60.7 101.8 70.3 103.6 C 71.9 103.9 73.5 104.4 74.8 105.1 C 74.9 105.2 75 105.2 75.1 105.2 C 73.4 104.3 71.5 103.5 69.5 103.2 C 58.6 101.2 47.8 108.6 45.3 119.9 L 45.7 120 C 46 119.1 46.4 118.2 46.9 117.4 L 46.9 117.4 Z" fill="url(#gradient44)"/>
+			<path id="st48" d="M 46.9 117.4 C 51.1 107.8 60.7 101.8 70.3 103.6 C 71.9 103.9 73.5 104.4 74.8 105.1 C 74.9 105.2 75 105.2 75.1 105.2 C 73.4 104.3 71.5 103.5 69.5 103.2 C 58.6 101.2 47.8 108.6 45.3 119.9 L 45.7 120 C 46 119.1 46.4 118.2 46.9 117.4 L 46.9 117.4 Z" fill="url(#gradient45)"/>
+			<path id="st49" d="M 67.5 142.2 C 59.1 142.2 52.4 135.4 52.4 127.1 C 52.4 118.8 59.2 112 67.5 112 C 75.8 112 82.6 118.8 82.6 127.1 C 82.6 135.4 75.9 142.2 67.5 142.2 " fill="url(#gradient46)"/>
+			<path id="st50" d="M 67.5 142.2 C 59.1 142.2 52.4 135.4 52.4 127.1 C 52.4 118.8 59.2 112 67.5 112 C 75.8 112 82.6 118.8 82.6 127.1 C 82.6 135.4 75.9 142.2 67.5 142.2 " fill="url(#gradient47)"/>
+			<path id="st51" d="M 67.4 113.2 C 75.2 113.2 81.4 119.4 81.7 127.1 C 81.7 127 81.7 126.8 81.7 126.7 C 81.7 118.8 75.3 112.4 67.4 112.4 C 59.5 112.4 53.1 118.8 53.1 126.7 C 53.1 126.8 53.1 127 53.1 127.1 C 53.3 119.4 59.7 113.2 67.4 113.2 L 67.4 113.2 Z" fill="url(#gradient48)"/>
+			<path id="st52" d="M 67.4 113.2 C 75.2 113.2 81.4 119.4 81.7 127.1 C 81.7 127 81.7 126.8 81.7 126.7 C 81.7 118.8 75.3 112.4 67.4 112.4 C 59.5 112.4 53.1 118.8 53.1 126.7 C 53.1 126.8 53.1 127 53.1 127.1 C 53.3 119.4 59.7 113.2 67.4 113.2 L 67.4 113.2 Z" fill="url(#gradient49)"/>
+			<path id="st53" d="M 77 127.1 C 77 132.3 72.8 136.5 67.6 136.5 C 62.4 136.5 58.2 132.3 58.2 127.1 C 58.2 121.9 62.4 117.7 67.6 117.7 C 72.8 117.7 77 121.9 77 127.1 L 77 127.1 Z" fill="url(#gradient50)"/>
+			<path id="st54" d="M 77 127.1 C 77 132.3 72.8 136.5 67.6 136.5 C 62.4 136.5 58.2 132.3 58.2 127.1 C 58.2 121.9 62.4 117.7 67.6 117.7 C 72.8 117.7 77 121.9 77 127.1 L 77 127.1 Z" fill="url(#gradient51)"/>
+			<path id="st55" d="M 67.6 117.6 C 64.1 117.6 61 119.5 59.5 122.4 C 62.9 126 68.7 130.3 76.8 129.4 C 77 128.7 77.1 127.9 77.1 127.1 C 77 121.9 72.8 117.6 67.6 117.6 L 67.6 117.6 Z" fill="url(#gradient52)"/>
+			<path id="st242" d="M 72 127.5 C 72 129.9 70.1 131.9 67.6 131.9 C 65.1 131.9 63.2 130 63.2 127.5 C 63.2 125.1 65.1 123.1 67.6 123.1 C 70.1 123.1 72 125.1 72 127.5 L 72 127.5 Z" fill="#353635"/>
+			<path id="st56" d="M 71.7 127.1 C 71.7 129.3 69.9 131.1 67.7 131.1 C 65.5 131.1 63.7 129.3 63.7 127.1 C 63.7 124.9 65.5 123.1 67.7 123.1 C 69.9 123 71.7 124.8 71.7 127.1 L 71.7 127.1 Z" fill="url(#gradient53)"/>
+			<path id="st57" d="M 67.6 123 C 66.1 123 64.8 123.8 64.1 125 C 65.5 126.6 68.1 128.5 71.6 128 C 71.7 127.7 71.7 127.4 71.7 127 C 71.7 124.8 69.9 123 67.6 123 L 67.6 123 L 67.6 123 Z" fill="url(#gradient54)"/>
+			<path id="st58" d="M 68.5 134.3 C 68.5 134.8 68.1 135.2 67.6 135.2 C 67.1 135.2 66.7 134.8 66.7 134.3 C 66.7 133.8 67.1 133.4 67.6 133.4 C 68.1 133.4 68.5 133.8 68.5 134.3 L 68.5 134.3 Z" fill="url(#gradient55)"/>
+			<path id="st59" d="M 68.5 134.3 C 68.5 134.8 68.1 135.2 67.6 135.2 C 67.1 135.2 66.7 134.8 66.7 134.3 C 66.7 133.8 67.1 133.4 67.6 133.4 C 68.1 133.4 68.5 133.8 68.5 134.3 L 68.5 134.3 Z" fill="url(#gradient56)"/>
+			<path id="st60" d="M 68.5 119.9 C 68.5 120.4 68.1 120.8 67.6 120.8 C 67.1 120.8 66.7 120.4 66.7 119.9 C 66.7 119.4 67.1 119 67.6 119 C 68.1 119 68.5 119.4 68.5 119.9 L 68.5 119.9 Z" fill="url(#gradient57)"/>
+			<path id="st61" d="M 68.5 119.9 C 68.5 120.4 68.1 120.8 67.6 120.8 C 67.1 120.8 66.7 120.4 66.7 119.9 C 66.7 119.4 67.1 119 67.6 119 C 68.1 119 68.5 119.4 68.5 119.9 L 68.5 119.9 Z" fill="url(#gradient58)"/>
+			<path id="st62" d="M 73.4 131.5 C 73.8 131.9 73.8 132.4 73.4 132.8 C 73 133.2 72.5 133.2 72.1 132.8 C 71.7 132.4 71.7 131.9 72.1 131.5 C 72.4 131.2 73 131.2 73.4 131.5 L 73.4 131.5 Z" fill="url(#gradient59)"/>
+			<path id="st63" d="M 73.4 131.5 C 73.8 131.9 73.8 132.4 73.4 132.8 C 73 133.2 72.5 133.2 72.1 132.8 C 71.7 132.4 71.7 131.9 72.1 131.5 C 72.4 131.2 73 131.2 73.4 131.5 L 73.4 131.5 Z" fill="url(#gradient60)"/>
+			<path id="st64" d="M 63.2 121.4 C 63.6 121.8 63.6 122.3 63.2 122.7 C 62.8 123.1 62.3 123.1 61.9 122.7 C 61.5 122.3 61.5 121.8 61.9 121.4 C 62.3 121 62.8 121 63.2 121.4 L 63.2 121.4 Z" fill="url(#gradient61)"/>
+			<path id="st65" d="M 63.2 121.4 C 63.6 121.8 63.6 122.3 63.2 122.7 C 62.8 123.1 62.3 123.1 61.9 122.7 C 61.5 122.3 61.5 121.8 61.9 121.4 C 62.3 121 62.8 121 63.2 121.4 L 63.2 121.4 Z" fill="url(#gradient62)"/>
+			<path id="st66" d="M 74.8 126.1 C 75.3 126.1 75.7 126.5 75.7 127 C 75.7 127.5 75.3 127.9 74.8 127.9 C 74.3 127.9 73.9 127.5 73.9 127 C 73.9 126.6 74.3 126.1 74.8 126.1 L 74.8 126.1 Z" fill="url(#gradient63)"/>
+			<path id="st67" d="M 74.8 126.1 C 75.3 126.1 75.7 126.5 75.7 127 C 75.7 127.5 75.3 127.9 74.8 127.9 C 74.3 127.9 73.9 127.5 73.9 127 C 73.9 126.6 74.3 126.1 74.8 126.1 L 74.8 126.1 Z" fill="url(#gradient64)"/>
+			<path id="st68" d="M 60.4 126.1 C 60.9 126.1 61.3 126.5 61.3 127 C 61.3 127.5 60.9 127.9 60.4 127.9 C 59.9 127.9 59.5 127.5 59.5 127 C 59.5 126.6 59.9 126.1 60.4 126.1 L 60.4 126.1 Z" fill="url(#gradient65)"/>
+			<path id="st69" d="M 60.4 126.1 C 60.9 126.1 61.3 126.5 61.3 127 C 61.3 127.5 60.9 127.9 60.4 127.9 C 59.9 127.9 59.5 127.5 59.5 127 C 59.5 126.6 59.9 126.1 60.4 126.1 L 60.4 126.1 Z" fill="url(#gradient66)"/>
+			<path id="st70" d="M 72.1 121.3 C 72.5 120.9 73 120.9 73.4 121.3 C 73.8 121.7 73.8 122.2 73.4 122.6 C 73 123 72.5 123 72.1 122.6 C 71.7 122.2 71.7 121.7 72.1 121.3 L 72.1 121.3 Z" fill="url(#gradient67)"/>
+			<path id="st71" d="M 72.1 121.3 C 72.5 120.9 73 120.9 73.4 121.3 C 73.8 121.7 73.8 122.2 73.4 122.6 C 73 123 72.5 123 72.1 122.6 C 71.7 122.2 71.7 121.7 72.1 121.3 L 72.1 121.3 Z" fill="url(#gradient68)"/>
+			<path id="st72" d="M 61.8 131.5 C 62.2 131.1 62.7 131.1 63.1 131.5 C 63.5 131.9 63.5 132.4 63.1 132.8 C 62.7 133.2 62.2 133.2 61.8 132.8 C 61.4 132.4 61.5 131.9 61.8 131.5 L 61.8 131.5 Z" fill="url(#gradient69)"/>
+			<path id="st73" d="M 61.8 131.5 C 62.2 131.1 62.7 131.1 63.1 131.5 C 63.5 131.9 63.5 132.4 63.1 132.8 C 62.7 133.2 62.2 133.2 61.8 132.8 C 61.4 132.4 61.5 131.9 61.8 131.5 L 61.8 131.5 Z" fill="url(#gradient70)"/>
+			<path id="st74" d="M 75.3 65.1 C 75.3 52.5 75.2 41 75.2 41 C 75.2 41 50.1 39.2 46.7 41.7 C 43.5 44.1 33.4 52.6 31.7 74.3 L 75.3 65.1 L 75.3 65.1 L 75.3 65.1 Z" fill="#fed600"/>
+			<path id="st75" d="M 75.1 64.7 C 75.1 51.9 75 40.1 75 40.1 C 75 40.1 50 38.3 46.6 40.9 C 43.5 43.3 33.3 52 31.7 74.1 L 75.1 64.7 L 75.1 64.7 L 75.1 64.7 Z" fill="#c67629"/>
+			<path id="st76" d="M 74.6 64.5 C 74.6 52 74.5 40.6 74.5 40.6 C 74.5 40.6 50.2 38.8 46.9 41.3 C 43.9 43.7 33.9 52.1 32.4 73.6 L 74.6 64.5 L 74.6 64.5 L 74.6 64.5 Z" fill="url(#gradient71)"/>
+			<path id="st77" d="M 74.6 64.5 C 74.6 52 74.5 40.6 74.5 40.6 C 74.5 40.6 50.2 38.8 46.9 41.3 C 43.9 43.7 33.9 52.1 32.4 73.6 L 74.6 64.5 L 74.6 64.5 L 74.6 64.5 Z" fill="url(#gradient72)"/>
+			<path id="st78" d="M 74.6 48.8 C 74.6 43.8 74.6 40.6 74.6 40.6 C 74.6 40.6 50.3 38.8 47 41.3 C 45.3 42.6 41.6 45.8 38.3 51.9 C 46.2 54.8 62.8 58.7 74.6 48.8 L 74.6 48.8 Z" fill="url(#gradient73)"/>
+			<path id="st79" d="M 43.5 119.4 C 43.4 122.4 42.7 124.2 42.7 124.2 L 22.6 124.2 L 22.6 114.7 L 42.7 114.7 C 42.7 114.7 43.5 116.4 43.5 119.4 L 43.5 119.4 Z" fill="url(#gradient74)"/>
+			<path id="st80" d="M 43.5 119.4 C 43.4 122.4 42.7 124.2 42.7 124.2 L 22.6 124.2 L 22.6 114.7 L 42.7 114.7 C 42.7 114.7 43.5 116.4 43.5 119.4 L 43.5 119.4 Z" fill="url(#gradient75)"/>
+			<path id="st81" d="M 43.5 119.4 C 43.4 122.4 42.7 124.2 42.7 124.2 L 22.6 124.2 L 22.6 114.7 L 42.7 114.7 C 42.7 114.7 43.5 116.4 43.5 119.4 L 43.5 119.4 Z" fill="url(#gradient76)"/>
+			<path id="st82" d="M 43.5 119.4 C 43.4 122.4 42.7 124.2 42.7 124.2 L 22.6 124.2 L 22.6 114.7 L 42.7 114.7 C 42.7 114.7 43.5 116.4 43.5 119.4 L 43.5 119.4 Z" fill="url(#gradient77)"/>
+			<path id="st752" d="M 83.7 87.4 L 24 96.4 L 23.8 95.5 L 83.6 86.5 L 83.7 87.4 Z" fill="#c67629"/>
+			<path id="st742" d="M 83.6 87.5 L 23.8 96.5 L 23.7 96 L 83.5 87 L 83.6 87.5 Z" fill="#fed600"/>
+			<path id="st753" d="M 77.1 107 L 76.7 107 L 76.7 37.4 L 77.1 37.4 L 77.1 107 Z" fill="#c67629"/>
+			<path id="st754" d="M 42.1 37.6 L 42.1 37.1 L 77.1 37.1 L 77.1 37.6 L 42.1 37.6 Z" fill="#c67629"/>
+			<path id="st755" d="M 37.4 40.5 C 37.5 40.6 31.6 48.3 28.3 56.1 C 25 63.9 23.8 74.8 23.8 74.8 L 28.6 74.5 C 28.6 74.5 30.5 62.5 32.4 56.6 C 34.3 50.6 39.5 40.8 39.5 40.8 C 39.5 40.8 37.2 40.4 37.4 40.5 L 37.4 40.5 Z" fill="#c67629"/>
+			<path id="st83" d="M 37.4 40.7 C 37.3 40.7 37.3 40.7 37.3 40.7 C 32 46.9 25.8 57.3 24 74.4 C 27.2 74.3 28.2 74 28.2 74 C 28.2 74 30.3 62.1 32.2 56.3 C 34.1 50.5 39.2 40.9 39.2 40.9 L 37.4 40.7 L 37.4 40.7 L 37.4 40.7 Z" fill="url(#gradient78)"/>
+			<path id="st84" d="M 37.4 40.7 C 37.3 40.7 37.3 40.7 37.3 40.7 C 32 46.9 25.8 57.3 24 74.4 C 27.2 74.3 28.2 74 28.2 74 C 28.2 74 30.3 62.1 32.2 56.3 C 34.1 50.5 39.2 40.9 39.2 40.9 L 37.4 40.7 L 37.4 40.7 L 37.4 40.7 Z" fill="url(#gradient79)"/>
+			<path id="st85" d="M 74.9 77.9 C 74.9 78.5 74.5 78.9 73.9 78.9 L 64 78.9 C 63.4 78.9 63 78.5 63 77.9 L 63 75.3 C 63 74.7 63.4 74.3 64 74.3 L 73.9 74.3 C 74.5 74.3 74.9 74.7 74.9 75.3 L 74.9 77.9 L 74.9 77.9 Z" fill="url(#gradient80)"/>
+			<path id="st86" d="M 74.5 76.9 C 74.5 77.3 74.1 77.5 73.6 77.5 L 64.5 77.5 C 64 77.5 63.6 77.2 63.6 76.9 L 63.6 75.2 C 63.6 74.8 64 74.6 64.5 74.6 L 73.6 74.6 C 74.1 74.6 74.5 74.9 74.5 75.2 L 74.5 76.9 L 74.5 76.9 Z" fill="url(#gradient81)"/>
+			<path id="st87" d="M 74.5 76.9 C 74.5 77.3 74.1 77.5 73.6 77.5 L 64.5 77.5 C 64 77.5 63.6 77.2 63.6 76.9 L 63.6 75.2 C 63.6 74.8 64 74.6 64.5 74.6 L 73.6 74.6 C 74.1 74.6 74.5 74.9 74.5 75.2 L 74.5 76.9 L 74.5 76.9 Z" fill="url(#gradient82)"/>
+			<path id="st88" d="M 30.7 117.3 C 30.7 117.3 26.7 122.6 25.9 122.6 L 23.6 122.6 C 22.8 122.6 22.2 122 22.2 121.2 L 22.2 108.3 C 22.2 107.5 22.8 106.9 23.6 106.9 L 25.9 106.9 C 26.7 106.9 27.3 107.5 27.3 108.3 L 30.7 117.3 L 30.7 117.3 L 30.7 117.3 Z" fill="#faa51a"/>
+			<path id="st89" d="M 29.8 117.1 C 29.8 117.1 26.1 121.9 25.4 121.9 L 23.3 121.9 C 22.6 121.9 22 121.3 22 120.6 L 22 109.2 C 22 108.5 22.6 107.9 23.3 107.9 L 25.4 107.9 C 26.1 107.9 26.7 108.5 26.7 109.2 L 29.8 117.1 L 29.8 117.1 Z" fill="url(#gradient83)"/>
+			<path id="st90" d="M 29.8 117.1 C 29.8 117.1 26.1 121.9 25.4 121.9 L 23.3 121.9 C 22.6 121.9 22 121.3 22 120.6 L 22 109.2 C 22 108.5 22.6 107.9 23.3 107.9 L 25.4 107.9 C 26.1 107.9 26.7 108.5 26.7 109.2 L 29.8 117.1 L 29.8 117.1 Z" fill="url(#gradient84)"/>
+			<path id="st756" d="M 34.5 71.6 C 34.5 71.6 34.7 73 35.4 73.8 C 36 74.5 37.8 75.8 35.7 76 C 33.5 76.1 31.8 76.1 32.8 74.6 C 33.8 73.1 33.1 71.4 32.9 71.1 C 32.6 70.7 34.5 71.6 34.5 71.6 L 34.5 71.6 Z" fill="#c67629"/>
+			<path id="st91" d="M 34.5 71.1 C 34.5 71.1 35.1 73 35.3 73.5 C 35.6 74.1 37.7 75.5 35.7 75.7 C 33.7 75.8 32 75.8 33 74.1 C 33.9 72.5 32.7 70.1 32.7 70.1 L 34.5 71.1 L 34.5 71.1 L 34.5 71.1 Z" fill="#676767"/>
+			<path id="st92" d="M 35 66.5 C 35.2 67.2 35.6 68.8 35.8 69.6 C 36 70.4 36.4 71.8 36 72.2 C 35.6 72.5 34.6 72.5 33.4 72.5 C 32.2 72.5 30.4 72.4 29.8 71 C 29.1 69.4 31.2 67.3 32 66.5 C 32.9 65.7 33.6 64.8 34.2 65.1 C 34.7 65.4 34.8 65.9 35 66.5 L 35 66.5 L 35 66.5 Z" fill="url(#gradient85)"/>
+			<path id="st93" d="M 35 66.5 C 35.2 67.2 35.6 68.8 35.8 69.6 C 36 70.4 36.4 71.8 36 72.2 C 35.6 72.5 34.6 72.5 33.4 72.5 C 32.2 72.5 30.4 72.4 29.8 71 C 29.1 69.4 31.2 67.3 32 66.5 C 32.9 65.7 33.6 64.8 34.2 65.1 C 34.7 65.4 34.8 65.9 35 66.5 L 35 66.5 L 35 66.5 Z" fill="url(#gradient86)"/>
+			<path id="st94" d="M 35 66.5 C 35.2 67.2 35.6 68.8 35.8 69.6 C 36 70.4 36.4 71.8 36 72.2 C 35.6 72.5 34.6 72.5 33.4 72.5 C 32.2 72.5 30.4 72.4 29.8 71 C 29.1 69.4 31.2 67.3 32 66.5 C 32.9 65.7 33.6 64.8 34.2 65.1 C 34.7 65.4 34.8 65.9 35 66.5 L 35 66.5 L 35 66.5 Z" fill="url(#gradient87)"/>
+			<path id="st95" d="M 35 66.5 C 35.2 67.2 35.6 68.8 35.8 69.6 C 36 70.4 36.4 71.8 36 72.2 C 35.6 72.5 34.6 72.5 33.4 72.5 C 32.2 72.5 30.4 72.4 29.8 71 C 29.1 69.4 31.2 67.3 32 66.5 C 32.9 65.7 33.6 64.8 34.2 65.1 C 34.7 65.4 34.8 65.9 35 66.5 L 35 66.5 L 35 66.5 Z" fill="url(#gradient88)"/>
+			<path id="st96" d="M 35 66.5 C 35.2 67.2 35.6 68.8 35.8 69.6 C 36 70.4 36.4 71.8 36 72.2 C 35.6 72.5 34.6 72.5 33.4 72.5 C 32.2 72.5 30.4 72.4 29.8 71 C 29.1 69.4 31.2 67.3 32 66.5 C 32.9 65.7 33.6 64.8 34.2 65.1 C 34.7 65.4 34.8 65.9 35 66.5 L 35 66.5 L 35 66.5 Z" fill="url(#gradient89)"/>
+			<path id="st97" d="M 35 66.5 C 35.2 67.2 35.6 68.8 35.8 69.6 C 36 70.4 36.4 71.8 36 72.2 C 35.6 72.5 34.6 72.5 33.4 72.5 C 32.2 72.5 30.4 72.4 29.8 71 C 29.1 69.4 31.2 67.3 32 66.5 C 32.9 65.7 33.6 64.8 34.2 65.1 C 34.7 65.4 34.8 65.9 35 66.5 L 35 66.5 L 35 66.5 Z" fill="url(#gradient90)"/>
+			<path id="st98" d="M 35 66.5 C 35.2 67.2 35.6 68.8 35.8 69.6 C 36 70.4 36.4 71.8 36 72.2 C 35.6 72.5 34.6 72.5 33.4 72.5 C 32.2 72.5 30.4 72.4 29.8 71 C 29.1 69.4 31.2 67.3 32 66.5 C 32.9 65.7 33.6 64.8 34.2 65.1 C 34.7 65.4 34.8 65.9 35 66.5 L 35 66.5 L 35 66.5 Z" fill="url(#gradient91)"/>
+			<path id="st912" d="M 33.8 72.2 L 33.4 72.2 C 32.3 72.2 30.6 72.2 30 70.8 C 29.7 70.2 29.9 68.9 32.2 66.6 L 32.6 66.2 C 33.2 65.6 33.8 65 34.1 65.1 C 34.5 65.3 34.5 65.6 34.7 66.2 L 34.8 66.4 L 35.2 67.8 L 35.6 69.5 C 36.1 71.2 36 71.7 36 71.8 C 35.7 72.1 34.8 72.1 33.8 72.2 L 33.8 72.2 L 33.8 72.2 ZM 32.2 65.9 L 31.8 66.3 C 29.8 68.2 29.1 69.8 29.6 71.1 C 30.3 72.7 32.3 72.7 33.4 72.8 L 33.8 72.8 C 34.9 72.8 35.7 72.8 36.2 72.5 C 36.6 72.1 36.5 71.1 36.1 69.7 L 35.3 66.6 L 35.2 66.4 C 35.1 65.8 34.9 65.3 34.3 65 C 33.7 64.7 33 65.4 32.2 66.2 L 32.2 65.9 L 32.2 65.9 Z" fill="#676767"/>
+			<path id="st99" d="M 29.7 104.3 C 29.7 105.1 30.3 105.7 31.1 105.7 L 35.1 105.7 C 35.9 105.7 36.5 105.1 36.5 104.3 L 36.5 103.4 C 36.5 102.6 35.9 102 35.1 102 L 31.1 102 C 30.3 102 29.7 102.6 29.7 103.4 L 29.7 104.3 L 29.7 104.3 Z" fill="url(#gradient92)"/>
+			<path id="st100" d="M 29.7 104.3 C 29.7 105.1 30.3 105.7 31.1 105.7 L 35.1 105.7 C 35.9 105.7 36.5 105.1 36.5 104.3 L 36.5 103.4 C 36.5 102.6 35.9 102 35.1 102 L 31.1 102 C 30.3 102 29.7 102.6 29.7 103.4 L 29.7 104.3 L 29.7 104.3 Z" fill="url(#gradient93)"/>
+			<path id="st101" d="M 29.7 104.3 C 29.7 105.1 30.3 105.7 31.1 105.7 L 35.1 105.7 C 35.9 105.7 36.5 105.1 36.5 104.3 L 36.5 103.4 C 36.5 102.6 35.9 102 35.1 102 L 31.1 102 C 30.3 102 29.7 102.6 29.7 103.4 L 29.7 104.3 L 29.7 104.3 Z" fill="url(#gradient94)"/>
+			<path id="st102" d="M 29.7 104.3 C 29.7 105.1 30.3 105.7 31.1 105.7 L 35.1 105.7 C 35.9 105.7 36.5 105.1 36.5 104.3 L 36.5 103.4 C 36.5 102.6 35.9 102 35.1 102 L 31.1 102 C 30.3 102 29.7 102.6 29.7 103.4 L 29.7 104.3 L 29.7 104.3 Z" fill="url(#gradient95)"/>
+			<path id="st757" d="M 35.2 105.5 L 31.2 105.5 C 30.6 105.5 30 105 30 104.3 L 30 103.4 C 30 102.8 30.5 102.2 31.2 102.2 L 35.2 102.2 C 35.8 102.2 36.4 102.7 36.4 103.4 L 36.4 104.3 C 36.3 105 35.8 105.5 35.2 105.5 L 35.2 105.5 ZM 31.2 101.7 C 30.3 101.7 29.5 102.4 29.5 103.4 L 29.5 104.3 C 29.5 105.2 30.2 106 31.2 106 L 35.2 106 C 36.1 106 36.9 105.3 36.9 104.3 L 36.9 103.4 C 36.9 102.5 36.2 101.7 35.2 101.7 L 31.2 101.7 L 31.2 101.7 Z" fill="#c67629"/>
+		</g>
+	</g>
+</svg>
