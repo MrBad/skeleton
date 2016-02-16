@@ -55,28 +55,22 @@ class Paging {
 		$this->query = preg_replace('/LIMIT [0-9]+\s*\t*,\s*\t*[0-9]+$/si', '', $this->query);
 		
 		// extract subselects //
-		
 		$cnt_query = $this->query;
-		
 		$subselects = array();
 		preg_match_all('/\(\s*\t*SELECT.*?\)/', $cnt_query, $subselects);
-//		print_r($subselects);
-//		echo "<hr>";
+
 		for($i=0; $i < count($subselects[0]); $i++) {
 			$cnt_query = str_replace($subselects[0][$i], '{['.$i.']}', $cnt_query);
 		}
-//		echo $cnt_query . "<hr>";;
 		// use count //
-//		echo $cnt_query . "<hr>";
 		$cnt_query = preg_replace('/select\s*\t*(.*?)\s*\t*from[\s\t]/si', 'select count(1) as items from ', $cnt_query);
-//		echo $cnt_query."----<hr>";
 		$cnt_query = preg_replace("'ORDER BY.*?$'si", '', $cnt_query);
-//		echo $cnt_query."<hr>";
 
 		for($i=0; $i < count($subselects[0]); $i++) {
 			$cnt_query = str_replace('{['.$i.']}', $subselects[0][$i], $cnt_query);
 		}
-//		echo "$cnt_query<hr>";
+
+
 		if($sql->Query($cnt_query)) {
 			if($sql->rows > 1) {
 				// this is a group by effect //
@@ -219,5 +213,3 @@ class Paging {
 		return $str;
 	}
 }
-
-?>
