@@ -5,7 +5,7 @@ namespace Classes;
  *
  *    RoBot class v 0.14
  *        Author : Viorel Irimia
- *        Contact: viorel.irimia@gmail.com - http://antionline.ro
+ *        Contact: viorel.irimia@gmail.com
  *
  *        A browser like class
  *
