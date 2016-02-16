@@ -244,26 +244,4 @@ class Auth extends Singleton
 		);
 	}
 
-	/**
-	 * Return all un-sensitive user data
-	 *
-	 * @return mixed
-	 */
-//	public function getAllUserData()
-//	{
-//		$sql = Mysql::getInstance();
-//		$query = "SELECT u.id, u.username, u.gender, u.fname, u.lname, u.email, u.county_id,
-//				co.county, ci.id AS city_id, ci.city
-//				FROM netflash_users.users u
-//				INNER JOIN netflash_users.counties co ON u.county_id =co.id
-//				INNER JOIN netflash_users.cities ci ON u.city_id = ci.id
-//				WHERE u.status='active'
-//				AND u.id =" . $this->user_id;
-//
-//		$row = $sql->QueryRow($query);
-//		if ($row) {
-//			return $row;
-//		}
-//		return false;
-//	}
 }
