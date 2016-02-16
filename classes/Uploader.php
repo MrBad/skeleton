@@ -88,6 +88,7 @@ class Uploader
 			}
 		}
 		$this->file_dest_path = $dir;
+		return true;
 	}
 	
 	
