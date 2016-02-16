@@ -417,7 +417,7 @@ class Router extends Singleton {
 			'params'	=>	$this->params,
 		);
 	}
-	
+
 //	function setCacheOn($cache_seconds=3600){
 //		$this->cache = true;
 //		$this->view->caching = true;
@@ -434,6 +434,7 @@ class Router extends Singleton {
 //	function clearCache(){
 //		$this->view->clear_all_cache();
 //	}
+
 
 	function getControllerName(){
 		return $this->controller;
