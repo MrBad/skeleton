@@ -39,7 +39,7 @@ class Router extends Singleton {
 	
 	const DEFAULT_CONTROLLER = 'homepage';
 	const DEFAULT_VIEW = 'index';
-	const DEFAUL_ADMIN_RUTE = 'admin';
+	const DEFAULT_ADMIN_RUTE = 'admin';
 	const DEFAULT_TEMPLATE = 'main';
 
 	const DEFAULT_PK_PARAM = 0;
@@ -84,10 +84,10 @@ class Router extends Singleton {
 		
 
 		$match = array();
-		if (preg_match("'^/".self::DEFAUL_ADMIN_RUTE ."'i", $this->request_uri, $match)) {
+		if (preg_match("'^/".self::DEFAULT_ADMIN_RUTE ."'i", $this->request_uri, $match)) {
 			$this->is_admin = true;
-			$this->admin_prefix = self::DEFAUL_ADMIN_RUTE . '_';
-			$this->request_uri = preg_replace("'^/".self::DEFAUL_ADMIN_RUTE ."'i", '', $this->request_uri);
+			$this->admin_prefix = self::DEFAULT_ADMIN_RUTE . '_';
+			$this->request_uri = preg_replace("'^/".self::DEFAULT_ADMIN_RUTE ."'i", '', $this->request_uri);
 		} 
 		
 		if (preg_match("'/feeds'i", $this->request_uri,$match)) {
