@@ -50,7 +50,7 @@
 	$view_relative_path = 'main/' . Inflector::variablize($controller_name). '/';
 	$actions = array('index', 'add', 'edit', 'delete', 'view');
 	
-	$admin_prefix = Router::DEFAUL_ADMIN_RUTE . "_";
+	$admin_prefix = Router::DEFAULT_ADMIN_RUTE . "_";
 
 //	$model = new Model();
 //	$ret = $model->setTableName($table_name);
