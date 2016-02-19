@@ -348,7 +348,10 @@ class $controller_name extends Controller
 
 	// admin_index //
 	if (!is_file($cfg->get('root') . $cfg->get('views') . $view_relative_path . 'admin_index.tpl')) {
-		$str = "<h1>".Inflector::pluralize($model_name)."</h1>\n\n";
+		$str = "{extends 'admin_index.tpl'}\n";
+		$str .= "{block title}".Inflector::pluralize($model_name)."{/block}\n\n";
+		$str .= "{block content}\n";
+		$str .= "<h1>".Inflector::pluralize($model_name)."</h1>\n\n";
 
         $str .= "<div class=\"pure-menu pure-menu-horizontal contextmenu\">\n";
         $str .= "\t<ul class=\"pure-menu-list\">\n";
@@ -378,6 +381,7 @@ class $controller_name extends Controller
 		$str .="</tbody>\n";
 		$str .="</table>\n";
 		$str .="{\$pages}\n";
+		$str .="{/block}\n";
 
 		file_put_contents($cfg->get('root') . $cfg->get('views') . $view_relative_path . 'admin_index.tpl', $str);
 		
@@ -389,7 +393,11 @@ class $controller_name extends Controller
 	
 	// admin_add //
 	if (!is_file($cfg->get('root') . $cfg->get('views') . $view_relative_path . 'admin_add.tpl')) {
-		$str = "<h1>".Inflector::pluralize($model_name)."</h1>\n\n";
+		$str = "{extends 'admin_index.tpl'}\n";
+		$str .= "{block title}".Inflector::pluralize($model_name)."{/block}\n\n";
+		$str .= "{block content}\n";
+
+		$str .= "<h1>".Inflector::pluralize($model_name)."</h1>\n\n";
 		$str .= "<div class=\"pure-menu pure-menu-horizontal contextmenu\">\n";
 		$str .= "\t<ul class=\"pure-menu-list\">\n";
 		$str .= "\t\t<li class=\"pure-menu-item\"><a href=\"/admin/".Inflector::variablize($controller_name)."/\" class=\"pure-menu-link\">All</a></li>\n";
@@ -422,8 +430,8 @@ class $controller_name extends Controller
         $str .= "\t\t</div>\n";
 
 		$str .= "\t</fieldset>\n";
-		$str .= "</form>";
-		
+		$str .= "</form>\n";
+		$str .= "{/block}\n";
 		file_put_contents($cfg->get('root') . $cfg->get('views') . $view_relative_path . 'admin_add.tpl', $str);
 	} else {
 		echo $cfg->get('root') . $cfg->get('views') . $view_relative_path . "admin_add.tpl allready exists, not overwriting\n";
@@ -433,7 +441,10 @@ class $controller_name extends Controller
 	
 	// admin_edit //
 	if (!is_file($cfg->get('root') . $cfg->get('views') . $view_relative_path . 'admin_edit.tpl')) {
-		$str = "<h1>".Inflector::pluralize($model_name)."</h1>\n\n";
+		$str = "{extends 'admin_index.tpl'}\n";
+		$str .= "{block title}".Inflector::pluralize($model_name)."{/block}\n\n";
+		$str .= "{block content}\n";
+		$str .= "<h1>".Inflector::pluralize($model_name)."</h1>\n\n";
 
         $str .= "<div class=\"pure-menu pure-menu-horizontal contextmenu\">\n";
         $str .= "\t<ul class=\"pure-menu-list\">\n";
@@ -471,7 +482,8 @@ class $controller_name extends Controller
         $str .= "\t\t</div>\n";
 
         $str .= "\t</fieldset>\n";
-		$str .= "</form>";
+		$str .= "</form>\n";
+		$str .= "{/block}\n";
 
 		file_put_contents($cfg->get('root') . $cfg->get('views') . $view_relative_path . 'admin_edit.tpl', $str);
 	} else {
@@ -481,7 +493,10 @@ class $controller_name extends Controller
 	
 	// admin_view //
 	if (!is_file($cfg->get('root') . $cfg->get('views') . $view_relative_path . 'admin_view.tpl')) {
-		$str = "<h1>".Inflector::pluralize($model_name)."</h1>\n\n";
+		$str = "{extends 'admin_index.tpl'}\n";
+		$str .= "{block title}".Inflector::pluralize($model_name)."{/block}\n\n";
+		$str .= "{block content}\n";
+		$str .= "<h1>".Inflector::pluralize($model_name)."</h1>\n\n";
 
         $str .= "<div class=\"pure-menu pure-menu-horizontal contextmenu\">\n";
         $str .= "\t<ul class=\"pure-menu-list\">\n";
@@ -503,6 +518,7 @@ class $controller_name extends Controller
 		}
         $str .= "</tbody>\n";
 		$str .="</table>\n";
+		$str .="{/block}\n";
 
 		file_put_contents($cfg->get('root') . $cfg->get('views') . $view_relative_path . 'admin_view.tpl', $str);
 		
