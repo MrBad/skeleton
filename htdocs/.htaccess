@@ -14,7 +14,3 @@ php_flag opcache.enable Off
 
 SetEnv PROD_ENV 1
 
-#AuthType Basic
-#AuthName "Baga o fisa"
-#AuthUserFile /home/edispecer/.htpasswd
-#Require user admin viorel
