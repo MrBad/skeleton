@@ -149,7 +149,6 @@ class Users extends Controller
 				];
 
 				if ($this->model->login($data)) {
-					echo "xxx";
 					//$this->view->assign('reg_ok', true);
 					//Utils::Redirect('/profiles/myprofile/1/reg/ok/');
 				}
@@ -180,7 +179,6 @@ class Users extends Controller
 			} elseif (!$user->isActive($this->data['username'])) {
 				$this->view->riseError($langClass->get('account_not_active'));
 			} elseif (!$user->login($this->data)) {
-				echo "xxx";
 				$this->view->riseError($langClass->get('invalid_login'));
 			} else {
 				// login OK //
