@@ -4,7 +4,9 @@ namespace Controllers;
 use Classes\Auth;
 use Classes\Config;
 use Classes\Controller;
+use Classes\Lang;
 use Classes\Mysql;
+use Classes\Router;
 use Classes\Utils;
 use Classes\View;
 use Models\Load;
@@ -28,10 +30,12 @@ class Homepages extends Controller
 
 	public function preController()
 	{
-		global $router;
+		$router = Router::getInstance();
 		$auth = Auth::getInstance();
 		$view = View::getInstance();
+		$lang = Lang::getInstance();
 		$view->assign_by_ref('auth', $auth);
+		$view->assign_by_ref('Lang', $lang);
 		$view->assign('controller', $router->getControllerName());
 		$view->assign('action', $router->getViewName());
 
