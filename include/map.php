@@ -6,7 +6,7 @@
 
 	$RewriteRules = [
 		[
-			'rule' => "{^/primarii}i",
-			'replace' => "/city_halls/index/1/"
+			'rule' => "{^/someurl}i",
+			'replace' => "/somecontroller/someaction/1/"
 		],
 	];
