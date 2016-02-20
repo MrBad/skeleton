@@ -32,7 +32,7 @@
 //				echo $match[1]."\n";
 				$bad_emails[] = ($match[1]);
 				$email = trim($match[1]);
-				$query = "INSERT INTO netflash_nwl.nw_nospam SET email='".addslashes($email)."', is_bounce='0'";
+				$query = "INSERT INTO nw_nospam SET email='".addslashes($email)."', is_bounce='0'";
 				if($sql->Insert($query)) {
 					echo $email . "\n";
 					imap_setflag_full($mbox, $uid, "\\Seen", ST_UID);
@@ -43,7 +43,7 @@
 	}
 
 	
-	$mbox = imap_open ("{netflash.ro:993/imap/ssl/novalidate-cert}INBOX", $user, $pass)
+	$mbox = imap_open ("{mydomain.dev:993/imap/ssl/novalidate-cert}INBOX", $user, $pass)
 	     or die("can't connect: " . imap_last_error());
 
 	getComplaints($mbox);
