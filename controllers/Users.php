@@ -73,7 +73,7 @@ class Users extends Controller
 	}
 
 	/**
-	 * Add a user
+	 * Add a user / register
 	 */
 	public function register()
 	{
@@ -128,6 +128,9 @@ class Users extends Controller
 	{
 	}
 
+	/**
+	 * User activation, called from email link
+	 */
 	public function activate()
 	{
 		$cfg = Config::getInstance();
@@ -160,6 +163,9 @@ class Users extends Controller
 		}
 	}
 
+	/**
+	 * login controller -> called like /login/
+	 */
 	public function login()
 	{
 		$auth = Auth::getInstance();
@@ -197,6 +203,9 @@ class Users extends Controller
 		}
 	}
 
+	/**
+	 * Logout controller
+	 */
 	public function logout()
 	{
 		$cfg = Config::getInstance();
@@ -205,6 +214,9 @@ class Users extends Controller
 		Utils::Redirect($this->lang_prefix . '/');
 	}
 
+	/**
+	 * Password lost controller
+	 */
 	public function passwdLost()
 	{
 

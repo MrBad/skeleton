@@ -128,6 +128,13 @@ class User extends Model
 		parent::__construct();
 	}
 
+	/**
+	 * Password match validate rule
+	 * @param string $fieldname
+	 * @param string $repasswd
+	 * @param string $passwd
+	 * @return bool
+	 */
 	public function passwordMatch($fieldname, $repasswd, $passwd)
 	{
 		if ($repasswd === $passwd) {
@@ -136,6 +143,11 @@ class User extends Model
 		return false;
 	}
 
+	/**
+	 * Called before saving this model data
+	 * @param array $data
+	 * @return array
+	 */
 	public function preSave($data)
 	{
 		if (!isset($data['id'])) { // on INSERT
@@ -147,6 +159,11 @@ class User extends Model
 		return $data;
 	}
 
+	/**
+	 * Activate the user having this token
+	 * @param string $token
+	 * @return bool
+	 */
 	public function activate($token)
 	{
 		$sql = Mysql::getInstance();
@@ -160,6 +177,12 @@ class User extends Model
 		return false;
 	}
 
+	/**
+	 * Updating last action on site for this user_id
+	 * @param int $user_id
+	 * @param int $is_online
+	 * @return bool
+	 */
 	private function updateLastAction($user_id, $is_online = 0)
 	{
 		$sql = Mysql::getInstance();
@@ -172,6 +195,11 @@ class User extends Model
 		return $sql->Update($query);
 	}
 
+	/**
+	 * Login the user
+	 * @param array $data - ['username'=>$username, 'password'=>$password]
+	 * @return bool
+	 */
 	public function login($data)
 	{
 		$sql = Mysql::getInstance();
@@ -198,6 +226,9 @@ class User extends Model
 		return false;
 	}
 
+	/**
+	 * Logs out current user
+	 */
 	public function logout()
 	{
 		$sql = Mysql::getInstance();
@@ -211,6 +242,12 @@ class User extends Model
 			session_destroy();
 		}
 	}
+
+	/**
+	 * Username exists?
+	 * @param string $user
+	 * @return bool
+	 */
 	public function userExists($user)
 	{
 		$sql = Mysql::getInstance();
@@ -223,6 +260,12 @@ class User extends Model
 		}
 		return $sql->QueryItem($query) > 0 ? true : false;
 	}
+
+	/**
+	 * Username is suspended?
+	 * @param string $user
+	 * @return bool
+	 */
 	public function isSuspended($user)
 	{
 		$sql = Mysql::getInstance();
@@ -239,6 +282,11 @@ class User extends Model
 		return $sql->QueryItem($query) > 0 ? true : false;
 	}
 
+	/**
+	 * Username is active?
+	 * @param string $user
+	 * @return bool
+	 */
 	public function isActive($user)
 	{
 		$sql = Mysql::getInstance();
@@ -254,6 +302,9 @@ class User extends Model
 		return $sql->QueryItem($query) > 0 ? true : false;
 	}
 
+	/**
+	 * Update current token
+	 */
 	public function updateToken(){}
 }
 
