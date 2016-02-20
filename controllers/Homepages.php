@@ -33,9 +33,7 @@ class Homepages extends Controller
 		$router = Router::getInstance();
 		$auth = Auth::getInstance();
 		$view = View::getInstance();
-		$lang = Lang::getInstance();
 		$view->assign_by_ref('auth', $auth);
-		$view->assign_by_ref('Lang', $lang);
 		$view->assign('controller', $router->getControllerName());
 		$view->assign('action', $router->getViewName());
 
