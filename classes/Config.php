@@ -60,16 +60,4 @@ class Config extends Singleton
 	{
 		return $this->vars[$var];
 	}
-
-//	public static function getInstance()
-//	{
-////		if (! Config::$instance) {
-////			Config::$instance = new self;
-////		}
-//		return Config::$instance;
-//	}
-
-
 }
-
-?>

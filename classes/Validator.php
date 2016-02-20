@@ -127,6 +127,7 @@ class Validator
 
 			// To numeric representation
 			$search = range('A', 'Z');
+			$replace = [];
 			foreach (range(10, 35) as $tmp)
 				$replace[] = strval($tmp);
 			$numstr = str_replace($search, $replace, $account . $country . '00');
