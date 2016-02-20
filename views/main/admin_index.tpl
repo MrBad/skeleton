@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+{*
+	This is the /admin/ layout page.
+	The result of controllers actions are injected into content smarty block
+*}<!DOCTYPE html>
 <html lang="en">
 <head>
 	<link href="/htdocs/css/pure.css" rel="stylesheet">

@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+{*
+	This is the main layout page.
+	The result of controllers actions are injected into content smarty block, and title into title block
+*}<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
