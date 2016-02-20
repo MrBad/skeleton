@@ -8,7 +8,7 @@
 	<strong>Model</strong> is in models/Homepage.php<br>
 	<strong>Admin interface</strong> is in <a href="/admin/">admin</a>
 	Edit <strong>config.ini</strong>, [local] section to suit your needs - db and paths<br/>
-	run <strong>create_tmp.sh</strong> to create tmp (temporary directory) structure<br/>
-	create for example <strong>users</strong> table and cd to bin/console.<br/>
-	run php generate.php users to generate controller/model/views.<br/>
+	Run <strong>sh create_tmp.sh</strong> to create tmp (temporary directory) structure<br/>
+	Create for example <strong>users</strong> table and cd to bin/console.<br/>
+	run <strong>php generate.php users</strong> to generate controller/model/views.<br/>
 {/block}
