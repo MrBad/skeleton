@@ -17,17 +17,30 @@ use Models\User;
 class Homepages extends Controller
 {
 
+	/**
+	 * Default entry point into site
+	 */
 	public function index()
 	{
 	}
+
+	/**
+	 * about controller
+	 */
 	public function about(){
 
 	}
 
+	/**
+	 * Default entry point into /admin/
+	 */
 	public function admin_index()
 	{
 	}
 
+	/**
+	 * This is run before current controller
+	 */
 	public function preController()
 	{
 		$router = Router::getInstance();
@@ -39,6 +52,9 @@ class Homepages extends Controller
 
 	}
 
+	/**
+	 * This is run after current controller
+	 */
 	public function postController()
 	{
 		global $start;
