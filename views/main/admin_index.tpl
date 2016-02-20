@@ -17,8 +17,8 @@
 
 		<div class="pure-menu pure-menu-horizontal contextmenu">
 			<ul class="pure-menu-list">
-				<li class="pure-menu-item"><a href="/" class="pure-menu-link">Admin</a></li>
-				<li class="pure-menu-item"><a href="/admin/users/" class="pure-menu-link">Users</a></li>
+				<li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
+				<li class="pure-menu-item"><a href="/admin/" class="pure-menu-link">Admin</a></li>
 			</ul>
 		</div>
 
