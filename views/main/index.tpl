@@ -42,6 +42,12 @@
 				<li>
 					<a href="/homepages/about/"><i class="fa fa-info"></i> About</a>
 				</li>
+				{if $auth->isAuth()}
+					<li><a href="/users/logout/"><i class="fa fa-sign-out"></i> Logout</a></li>
+				{else}
+					<li><a href="/users/login/"><i class="fa fa-sign-in"></i> Login</a></li>
+					<li><a href="/users/register/"><i class="fa fa-user-plus"></i> Register</a></li>
+				{/if}
 			</ul>
 			<div class="clearboth"></div>
 		</div>
@@ -72,7 +78,7 @@
 </div>
 
 {literal}
-<script type="text/javascript" src="/htdocs/js/jsl.js"></script>
+	<script type="text/javascript" src="/htdocs/js/jsl.js"></script>
 <script type="text/javascript">
 	var controller = '{$controller}';
 	var action = '{$action}';
