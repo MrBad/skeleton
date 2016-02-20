@@ -34,11 +34,10 @@
 		<div id="main_menu">
 			<ul class="menu">
 				<li>
-					<a href="/" {if $controller=='loads'} class="active"{/if}><i class="fa fa-cubes"></i> Prima
-						pagina</a>
+					<a href="/" {if $controller=='loads'} class="active"{/if}><i class="fa fa-home"></i> Home</a>
 				</li>
 				<li>
-					<a href="/homepages/about/"><i class="fa fa-truck"></i> About</a>
+					<a href="/homepages/about/"><i class="fa fa-info"></i> About</a>
 				</li>
 			</ul>
 			<div class="clearboth"></div>
