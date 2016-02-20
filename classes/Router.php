@@ -436,10 +436,10 @@ class Router extends Singleton {
 //	}
 
 
-	function getControllerName(){
+	public function getControllerName(){
 		return $this->controller;
 	}
-	function getViewName(){
+	public function getViewName(){
 		return $this->view;
 	}
 }
