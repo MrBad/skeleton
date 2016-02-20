@@ -3,3 +3,7 @@ It is a MVC framework. It supports code generation (php bin/console/generate.php
 To set-up, modify config.ini,  to suit your needs (path and database).
 run sh create_tmp.sh to setup initial temporary files.
 
+Controllers are located in controllers/ folder, models are in models/, views are in views/main/
+You can create for example [users] table and cd to bin/console.
+Run [php generate.php users] to generate controller/model/views for it.
+
