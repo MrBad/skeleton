@@ -2,17 +2,10 @@
 namespace Controllers;
 
 use Classes\Auth;
-use Classes\Config;
 use Classes\Controller;
-use Classes\Lang;
-use Classes\Mysql;
 use Classes\Router;
 use Classes\Utils;
 use Classes\View;
-use Models\Load;
-use Models\Message;
-use Models\Truck;
-use Models\User;
 
 class Homepages extends Controller
 {

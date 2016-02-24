@@ -5,7 +5,6 @@ use Classes\Auth;
 use Classes\Config;
 use Classes\Controller;
 use Classes\Lang;
-use Classes\Mysql;
 use Classes\Utils;
 use Models\User;
 
