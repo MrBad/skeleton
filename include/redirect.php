@@ -23,6 +23,7 @@ if (preg_match("'^(/[a-z0-9\\-]+)$'i", $uri, $match)) {
 
 $ORIG_URI_NOLANG = $_SERVER['REQUEST_URI'];
 // Detect Language //
+global $languages;
 $language = "";
 if (preg_match("'^/([a-z]{2})/'", $uri, $match)) {
 	if (in_array($match[1], $languages)) {
@@ -35,6 +36,5 @@ if (preg_match("'^/([a-z]{2})/'", $uri, $match)) {
 		$ORIG_URI_NOLANG = $uri;
 	}
 }
-require_once($cfg->get('root') . $cfg->get('classes') . 'Lang.php');
-//$langClass = new \Classes\Lang($cfg->get('root') . 'language.conf', empty($language) ? DEFAULT_LANGUAGE : $language);
+require_once(ROOT . 'classes/Lang.php');
 $langClass = \Classes\Lang::getInstance($cfg->get('root') . 'language.conf', empty($language) ? DEFAULT_LANGUAGE : $language);
