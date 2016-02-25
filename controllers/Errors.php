@@ -1,7 +1,6 @@
 <?php
 namespace Controllers;
 use Classes\Controller;
-use Classes\Utils;
 
 class Errors extends Controller {
 	public function e404(){
