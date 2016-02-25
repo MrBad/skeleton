@@ -208,15 +208,6 @@ ul {
 
 }
 /* end buttons */
-a.addPhone.disabled {
-  display: none;
-}
-a.removePhone {
-  background: #DDD;
-  padding: 0.6em;
-  border-radius: 4px;
-  margin-left: 3px;
-}
 /* Panel */
 .panel {
   width: 100%;
@@ -238,10 +229,6 @@ a.removePhone {
   letter-spacing: normal;
   width: 100%;
 }
-.dimensions input,
-#num_pallets {
-  width: 10em;
-}
 form .image_container {
   display: inline-block;
   position: relative;
@@ -259,254 +246,11 @@ textarea#description {
   min-height: 8em;
   min-width: 20em;
 }
-.list_load,
-.list_truck,
-.list_company {
-  /*transition:background-color 0.2s ease;*/
-
-  min-height: 125px;
-  background-color: white;
-  cursor: pointer;
-  width: 100%;
-  padding: 1em;
-  border: solid 1px #ddd;
-  border-radius: 2px;
-  margin-top: 1em;
-}
-.list_load .place,
-.list_truck .place,
-.list_company .place,
-.list_load .company,
-.list_truck .company,
-.list_company .company {
-  font-weight: bold;
-  line-height: 1.5em;
-  font-size: 1.1em;
-}
-.list_load .place,
-.list_truck .place,
-.list_company .place {
-  overflow: hidden;
-}
-.list_load > div,
-.list_truck > div,
-.list_company > div {
-  padding: 0 0.5em 0 0;
-}
-.list_load .image img,
-.list_truck .image img,
-.list_company .image img {
-  margin: 0 auto;
-  display: block;
-  width: 90px;
-  border-radius: 3px;
-  transition: all 0.2s ease;
-}
-.list_load .company_details,
-.list_truck .company_details,
-.list_company .company_details {
-  border-bottom: solid 1px #dddddd;
-  padding-bottom: 5px;
-  margin-bottom: 8px;
-}
-.list_load:hover,
-.list_truck:hover,
-.list_company:hover {
-  background-color: #f9f9f9;
-}
-.list_load:hover .image img,
-.list_truck:hover .image img,
-.list_company:hover .image img {
-  width: 94px;
-}
-.list_load:hover .place a,
-.list_truck:hover .place a,
-.list_company:hover .place a {
-  color: #691b1b;
-}
-.list_load:hover .no-load-image:before,
-.list_truck:hover .no-load-image:before,
-.list_company:hover .no-load-image:before,
-.list_load:hover .no-truck-image:before,
-.list_truck:hover .no-truck-image:before,
-.list_company:hover .no-truck-image:before,
-.list_load:hover .no-company-image:before,
-.list_truck:hover .no-company-image:before,
-.list_company:hover .no-company-image:before {
-  font-size: 58px;
-}
-.mine {
-  border-color: #bcc6cc;
-}
-.mine_color {
-  border-color: #bcc6cc;
-}
-.premium {
-  border-color: #cd7300;
-}
-.premium .company a:after,
-.premium .company_name a:after,
-.premium h2:after {
-  font-family: 'FontAwesome', sans-serif;
-  font-size: 60%;
-  top: -0.6em;
-  position: relative;
-  content: "\f005";
-  color: #cd7300;
-}
-.premium_color {
-  color: #cd7300;
-}
-.expired {
-  border-color: #b93e3e;
-}
-.no-load-image,
-.no-truck-image,
-.no-company-image,
-.no-user-image {
-  width: 90px;
-  height: 90px;
-  text-align: center;
-  margin: 0 auto;
-}
-.no-load-image:before,
-.no-truck-image:before,
-.no-company-image:before,
-.no-user-image:before {
-  color: #aaaaaa;
-  font-family: 'FontAwesome', sans-serif;
-  font-size: 50px;
-  line-height: 90px;
-  transition: all 0.2s ease;
-}
-.no-company-image:before {
-  content: "\f1ad";
-}
-.no-user-image:before {
-  content: "\f007";
-}
-.dimensions,
-.truck_types,
-.pallets,
-.price,
-.payment_type,
-.addedOn {
-  line-height: 1.2em;
-}
 .image a {
   display: block;
 }
 .no-wrap {
   white-space: nowrap;
-}
-.location {
-  /* transition: background-color 0.2s ease; */
-
-  background-color: white;
-  width: 100%;
-  padding: 1em;
-  border: solid 1px #ddd;
-  border-radius: 2px;
-  margin-top: 1em;
-}
-.phones span {
-  white-space: nowrap;
-}
-.showLoad,
-.showTruck {
-  width: 100%;
-}
-.showLoad h3,
-.showTruck h3 {
-  display: inline-block;
-  border-bottom: 1px solid #DDD;
-  margin: 0.5em 0 0.2em 0;
-  line-height: 1.5em;
-  font-size: 1.2em;
-  padding-right: 1em;
-}
-.showLoad > div,
-.showTruck > div {
-  padding: 0.5em;
-}
-.showLoad .image img,
-.showTruck .image img {
-  width: 100%;
-  max-width: 300px;
-  min-width: 140px;
-  border-radius: 4px;
-}
-.showLoad .dimensions,
-.showTruck .dimensions,
-.showLoad .truck_types,
-.showTruck .truck_types,
-.showLoad .pallets,
-.showTruck .pallets,
-.showLoad .price,
-.showTruck .price,
-.showLoad .payment_type,
-.showTruck .payment_type,
-.showLoad .addedOn,
-.showTruck .addedOn,
-.showLoad .image,
-.showTruck .image {
-  line-height: 1.2em;
-  margin-top: 0.2em;
-}
-.showLoad .description,
-.showTruck .description {
-  margin-bottom: 1em;
-}
-.showLoad .user_details,
-.showTruck .user_details {
-  margin-top: 10px;
-}
-.showLoad .user_details .user_image img,
-.showTruck .user_details .user_image img {
-  width: 40px;
-  float: left;
-  border-radius: 3px;
-}
-.showLoad .user_details .name,
-.showTruck .user_details .name {
-  line-height: 40px;
-  padding: 0 10px;
-  float: left;
-}
-.showLoad .user_details .name h3,
-.showTruck .user_details .name h3 {
-  padding: 0;
-  margin: 0;
-}
-.showLoad .user_details .name:after,
-.showTruck .user_details .name:after {
-  content: ' ';
-  clear: both;
-}
-.showLoad .user_details .phones,
-.showTruck .user_details .phones {
-  clear: both;
-  line-height: 1.5em;
-  margin: 15px;
-}
-.showLoad .user_details .phones i,
-.showTruck .user_details .phones i {
-  font-size: 1.2em;
-}
-.showLoad .company_image,
-.showTruck .company_image {
-  float: left;
-  margin-right: 1em;
-}
-.showLoad .company_image img,
-.showTruck .company_image img {
-  border-radius: 3px;
-  width: 100px;
-}
-.showLoad .company_image span i,
-.showTruck .company_image span i {
-  border-radius: 3px;
-  font-size: 9em;
 }
 .actions {
   padding: 0.5em 0;
@@ -759,12 +503,6 @@ textarea#description {
     border: none;
   }
 }
-.user_image img {
-  border-radius: 5px;
-}
-.image_container img {
-  border-radius: 3px;
-}
 /* Tabs */
 .tabs {
   width: 100%;
@@ -896,12 +634,6 @@ textarea#description {
   display: inline-block;
   line-height: 32px;
 }
-.fa-outbox {
-  transform: rotate(180deg);
-}
-.fa-outbox:before {
-  content: "\f01c";
-}
 /* DropDown */
 .drop-down {
   border-width: 0 0 1px 1px;
@@ -953,107 +685,6 @@ textarea#description {
   visibility: hidden !important;
 }
 /* End DropDown */
-/* Messages */
-.numNew {
-  border-radius: 50%;
-  background-color: #aaaaaa;
-  color: #ffffff;
-  padding: 0 5px;
-}
-.main_head a,
-.msgHead a {
-  padding: 0.5em;
-  display: inline-block;
-}
-.main_head .active {
-  font-weight: bold;
-}
-.main_head .active .numNew {
-  background-color: #576a78;
-}
-.msgHead {
-  background: #FEFFDB;
-  border: 1px solid #FFDDB0;
-  margin: 0.5em 0;
-}
-#hDiv .drop-down ul {
-  min-width: 158px;
-}
-.listMessages .lMsg {
-  width: 100%;
-  border: solid #dddddd 1px;
-  border-bottom-width: 0;
-  padding: 0.3em;
-}
-.listMessages .lMsg label {
-  padding: 0 0.5em;
-  vertical-align: middle;
-  display: block;
-  float: left;
-  line-height: 2.7em;
-}
-.listMessages .lMsg img {
-  width: 36px;
-  border-radius: 3px;
-}
-.listMessages .lMsg .lMsgCheck,
-.listMessages .lMsg .lMsgUsr,
-.listMessages .lMsg .lMsgGo {
-  vertical-align: middle;
-  overflow: hidden;
-}
-.listMessages .lMsg .lMsgGo {
-  line-height: 2em;
-  height: 2em;
-}
-.listMessages .lMsg .lMsgGo:after {
-  content: '';
-  clear: both;
-  display: table;
-}
-.listMessages .newMsg {
-  background-color: #eceef4;
-}
-.listMessages .lastMsg {
-  border-width: 1px;
-}
-.showMsg .fImg {
-  float: left;
-  padding-right: 1em;
-}
-.showMsg .fImg img {
-  width: 50px;
-  height: 50px;
-}
-.showMsg .fromTo {
-  float: left;
-}
-.showMsg .subject {
-  padding: 0;
-  margin: 0.5em 0;
-  border-bottom: solid 1px #dddddd;
-}
-.showMsg .subject small {
-  float: right;
-  font-weight: normal;
-  font-size: 12px;
-  vertical-align: bottom;
-  line-height: 27px;
-}
-.showMsg .subject h2:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-.showMsg .Msg {
-  border-top: 1px solid #dddddd;
-  padding: 1em 0;
-  margin: 1em 0;
-}
-.showMsg .to {
-  opacity: 0.7;
-}
-/* end Messages*/
 @media all and (min-width: 480px) {
   html {
     font-size: 0.9em;
@@ -1079,12 +710,6 @@ textarea#description {
   }
   .pure-form-aligned .labels-inline label:first-child {
     margin-left: 11.5em;
-  }
-  fieldset #phones {
-    margin-left: 11em;
-  }
-  fieldset #phones .err_msg {
-    margin-left: 0 !important;
   }
 }
 @media all and (max-width: 480px) {

@@ -255,16 +255,6 @@ ul {
 
 /* end buttons */
 
-a.addPhone.disabled {
-  display: none;
-}
-
-a.removePhone {
-  background: #DDD;
-  padding: 0.6em;
-  border-radius: 4px;
-  margin-left: 3px;
-}
 
 /* Panel */
 .panel {
@@ -287,10 +277,6 @@ a.removePhone {
   }
 }
 
-.dimensions input, #num_pallets {
-  width: 10em;
-}
-
 form .image_container {
   display: inline-block;
   position: relative;
@@ -310,123 +296,6 @@ textarea#description {
   min-width: 20em;
 }
 
-.list_load, .list_truck, .list_company {
-  /*transition:background-color 0.2s ease;*/
-  min-height: 125px;
-  background-color: white;
-  cursor: pointer;
-  width: 100%;
-  padding: 1em;
-  border: solid 1px #ddd;
-  border-radius: 2px;
-  margin-top: 1em;
-  .place, .company {
-	font-weight: bold;
-	line-height: 1.5em;
-	font-size: 1.1em;
-  }
-  .place {
-	overflow: hidden
-  }
-  > div {
-	padding: 0 0.5em 0 0;
-  }
-  .image img {
-	margin: 0 auto;
-	display: block;
-	width: 90px;
-	border-radius: 3px;
-	transition: all 0.2s ease
-  }
-  .company_details {
-	border-bottom: solid 1px @border-color;
-	padding-bottom: 5px;
-	margin-bottom: 8px;
-
-  }
-  .name {
-  }
-  &:hover {
-	background-color: @hover-bg-color;
-	.image img {
-	  width: 94px;
-	}
-	.place a {
-	  color: #691b1b;
-	}
-	.no-load-image:before, .no-truck-image:before, .no-company-image:before {
-	  font-size: 58px;
-	}
-  }
-}
-
-.mine {
-  border-color: @mine-color;
-}
-
-
-
-.mine_color {
-  border-color: @mine-color;
-}
-
-.premium {
-  border-color: @premium-color;
-  .company a:after, .company_name a:after, h2:after {
-	font-family: 'FontAwesome', sans-serif;
-	font-size: 60%;
-	top: -.6em;
-	position: relative;
-	content: "\f005";
-	color: @premium-color;
-  }
-}
-
-.premium_color {
-  color: @premium-color
-}
-
-.expired {
-  border-color: @expired-color;
-}
-
-.no-load-image,
-.no-truck-image,
-.no-company-image,
-.no-user-image {
-  width: 90px;
-  height: 90px;
-  text-align: center;
-  margin: 0 auto;
-  &:before {
-	color: @no-image-bg-color;
-	font-family: 'FontAwesome', sans-serif;
-	font-size: 50px;
-	line-height: 90px;
-	transition: all 0.2s ease;
-  }
-}
-
-//.no-load-image:before {
-//  content: "\f1b3";
-//}
-
-//
-//.no-truck-image:before {
-//  content: "\f0d1";
-//}
-
-.no-company-image:before {
-  content: "\f1ad";
-}
-
-.no-user-image:before {
-  content: "\f007";
-}
-
-.dimensions, .truck_types, .pallets, .price, .payment_type, .addedOn {
-  line-height: 1.2em;
-}
 
 .image a {
   display: block;
@@ -436,91 +305,6 @@ textarea#description {
   white-space: nowrap
 }
 
-.location {
-  /* transition: background-color 0.2s ease; */
-  background-color: white;
-  width: 100%;
-  padding: 1em;
-  border: solid 1px #ddd;
-  border-radius: 2px;
-  margin-top: 1em;
-}
-
-.phones span {
-  white-space: nowrap
-}
-
-.showLoad, .showTruck {
-  width: 100%;
-  h3 {
-	display: inline-block;
-	border-bottom: 1px solid #DDD;
-	margin: 0.5em 0 0.2em 0;
-	line-height: 1.5em;
-	font-size: 1.2em;
-	padding-right: 1em;
-  }
-  > div {
-	padding: 0.5em;
-  }
-  .image img {
-	width: 100%;
-	max-width: 300px;
-	min-width: 140px;
-	border-radius: 4px;
-  }
-  .dimensions, .truck_types, .pallets, .price, .payment_type,
-  .addedOn, .image {
-	line-height: 1.2em;
-	margin-top: 0.2em
-  }
-  .description {
-	margin-bottom: 1em;
-  }
-
-  .user_details {
-	margin-top: 10px;
-	.user_image img {
-	  width: 40px;
-	  float: left;
-	  border-radius: 3px
-	}
-	.name {
-	  line-height: 40px;
-	  padding: 0 10px;
-	  float: left;
-	  h3 {
-		padding: 0;
-		margin: 0;
-	  }
-	  &:after {
-		content: ' ';
-		clear: both;
-	  }
-	}
-	.phones {
-	  clear: both;
-	  line-height: 1.5em;
-	  margin: 15px;
-	  i {
-		font-size: 1.2em
-	  }
-	}
-  }
-  .company_image {
-	float: left;
-	margin-right: 1em;
-	img {
-	  border-radius: 3px;
-	  width: 100px;
-	}
-	span i {
-	  border-radius: 3px;
-	  font-size: 9em;
-	}
-  }
-
-}
 
 .actions {
   padding: 0.5em 0;
@@ -700,11 +484,9 @@ textarea#description {
   }
 
 }
-
 /* End Menu */
 
 /* Breadcrumbs TODO - make it mobile first*/
-
 .inner {
   max-width: 820px;
   margin: 0 auto;
@@ -801,6 +583,7 @@ textarea#description {
 
 /* end BreadCrumbs*/
 
+
 @media (max-width: 340px) {
   .breadcrumbs {
 	li {
@@ -819,15 +602,7 @@ textarea#description {
 
 // end breadcrumbs
 
-.user_image {
-  img {
-	border-radius: 5px;
-  }
-}
 
-.image_container img {
-  border-radius: 3px;
-}
 
 /* Tabs */
 .tabs {
@@ -994,12 +769,6 @@ textarea#description {
   line-height: 32px;
 }
 
-.fa-outbox {
-  transform: rotate(180deg);
-  &:before {
-	content: "\f01c";
-  }
-}
 
 /* DropDown */
 .drop-down {
@@ -1055,126 +824,6 @@ textarea#description {
 
 /* End DropDown */
 
-/* Messages */
-.numNew {
-  border-radius: 50%;
-  background-color: @num-new-bg;
-  color: @num-new-cl;
-  padding: 0 5px;
-}
-
-.main_head, .msgHead {
-  a {
-	padding: 0.5em;
-	display: inline-block;
-  }
-}
-
-.main_head {
-
-  .active {
-	font-weight: bold;
-	.numNew {
-	  background-color: #576a78;
-	}
-  }
-}
-
-.msgHead {
-  background: #FEFFDB;
-  border: 1px solid #FFDDB0;
-  margin: 0.5em 0;
-}
-
-#hDiv {
-  .drop-down {
-	ul {
-	  min-width: 158px;
-	}
-  }
-}
-
-.listMessages {
-  .lMsg {
-	width: 100%;
-	border: solid @msg-list-border-color 1px;
-	border-bottom-width: 0;
-	padding: 0.3em;
-	label {
-	  padding: 0 0.5em;
-	  vertical-align: middle;
-	  display: block;
-	  float: left;
-	  line-height: 2.7em;
-	}
-	img {
-	  width: 36px;
-	  border-radius: 3px
-	}
-
-	.lMsgCheck, .lMsgUsr, .lMsgGo {
-	  vertical-align: middle;
-	  overflow: hidden;
-	}
-	.lMsgGo {
-	  line-height: 2em;
-	  height: 2em;
-	  &:after {
-		content: '';
-		clear: both;
-		display: table;
-	  }
-	}
-  }
-  .newMsg {
-	background-color: @new-msg-bg;
-  }
-  .lastMsg {
-	border-width: 1px;
-  }
-}
-
-.showMsg {
-  .fImg {
-	img {
-	  width: 50px;
-	  height: 50px;
-	}
-	float: left;
-	padding-right: 1em;
-  }
-  .fromTo {
-	float: left;
-  }
-  .subject {
-	padding: 0;
-	margin: 0.5em 0;
-	border-bottom: solid 1px @msg-separator-border-color;
-	small {
-	  float: right;
-	  font-weight: normal;
-	  font-size: 12px;
-	  vertical-align: bottom;
-	  line-height: 27px;
-	}
-	h2:after {
-	  content: '';
-	  display: table;
-	  clear: both
-	}
-  }
-  .Msg {
-	border-top: 1px solid @msg-separator-border-color;
-	padding: 1em 0;
-	margin: 1em 0;
-  }
-  .to {
-	opacity: 0.7;
-  }
-}
-
-/* end Messages*/
-
 @media all and (min-width: 480px) {
   html {
 	font-size: 0.9em;
@@ -1202,15 +851,6 @@ textarea#description {
 	  display: inline-block;
 	  &:first-child {
 		margin-left: 11.5em;
-	  }
-	}
-  }
-
-  fieldset {
-	#phones {
-	  margin-left: 11em;
-	  .err_msg {
-		margin-left: 0 !important;
 	  }
 	}
   }
