@@ -10,6 +10,7 @@ use Classes\Utils;
  * Class User
  * @package Models
  * @method User[] getByToken(string $token)
+ * @method User[] getByEmail(string $email)
  */
 class User extends Model
 {
@@ -123,6 +124,38 @@ class User extends Model
 		],
 	];
 
+	public $passwd_lost_rules = [
+		'email' => [
+			[
+				'rule' => VALID_NOT_EMPTY,
+				'message' => 'Email cannot be left blank'
+			], [
+				'rule' => VALID_EMAIL,
+				'message' => 'Email is not valid'
+			], [
+				'rule' => ['emailExists'],
+				'message' => 'No account defined by this email address'
+			],
+			'required' => true,
+		]
+	];
+	public $reset_passwd_rules = [
+		'password' => [
+			[
+				'rule' => VALID_NOT_EMPTY,
+				'message' => 'Password cannot be left blank'
+			],
+			'required' => true,
+		],
+		're_password' => [
+			[
+				'rule' => ['passwordMatch', 'password'],
+				'message' => 'Passwords does not match'
+			],
+			'required' => true,
+		],
+	];
+
 	public function __construct()
 	{
 		parent::__construct();
@@ -217,7 +250,7 @@ class User extends Model
 		$user = $sql->QueryRow($query);
 
 		if ($user) {
-			if(password_verify($data['password'], $user->password)) {
+			if (password_verify($data['password'], $user->password)) {
 				$auth->setAuth($user->id, $user->username, $user->first_name, $user->last_name, $user->email);
 				$this->updateLastAction($user->id, 1);
 				return true;
@@ -261,6 +294,13 @@ class User extends Model
 		return $sql->QueryItem($query) > 0 ? true : false;
 	}
 
+	public function emailExists($fieldname, $email)
+	{
+		$sql = Mysql::getInstance();
+		$query = "SELECT count(1) FROM users WHERE email='" . $sql->escape($email) . "'";
+		return $sql->QueryItem($query) > 0 ? true : false;
+	}
+
 	/**
 	 * Username is suspended?
 	 * @param string $user
@@ -291,11 +331,11 @@ class User extends Model
 	{
 		$sql = Mysql::getInstance();
 		if (preg_match(VALID_EMAIL, $user)) {
-			$query="SELECT count(1) FROM users
+			$query = "SELECT count(1) FROM users
 					WHERE email='" . addslashes($user) . "'
 					AND status='active'";
 		} else {
-			$query="SELECT count(1) FROM users
+			$query = "SELECT count(1) FROM users
 					WHERE username='" . addslashes($user) . "'
 					AND status='active'";
 		}
@@ -305,6 +345,22 @@ class User extends Model
 	/**
 	 * Update current token
 	 */
-	public function updateToken(){}
+	public function updateToken()
+	{
+	}
+
+	public function changePassword($password)
+	{
+		$sql = Mysql::getInstance();
+		if (!$this->id) {
+			return false;
+		}
+		$query = "UPDATE users SET password='" . $sql->escape(password_hash($password, PASSWORD_DEFAULT, ['cost' => 12])) . "' WHERE id=" . $this->id;
+		if($sql->Update($query)) {
+			$this->updateToken();
+			return true;
+		}
+		return false;
+	}
 }
 

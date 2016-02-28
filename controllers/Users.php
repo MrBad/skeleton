@@ -218,7 +218,76 @@ class Users extends Controller
 	 */
 	public function passwdLost()
 	{
+		$cfg = Config::getInstance();
+		if (!empty($this->data)) {
+			// changing validating rules, model does not support groups yet //
+			$this->model->validate = $this->model->passwd_lost_rules;
+			if ($this->model->validate($this->data)) {
+				$user = $this->model->getByEmail($this->data['email']);
+				$user = array_shift($user);
+				/** @var User $user */
 
+				// send reset link //
+				$mail = new \PHPMailer();
+				$mail->Mailer = 'sendmail';
+				require_once(ROOT . '/include/smtp.php');
+
+				$mail->Encoding = 'quoted-printable';
+				$mail->CharSet = 'utf-8';
+
+				// define them in config.ini and setup include/smtp.php //
+				$mail->Hostname = $cfg->get('hostname');
+				$mail->Sender = $cfg->get('admin_email');
+				$mail->From = $cfg->get('admin_email');
+				$mail->FromName = $cfg->get('admin_from');
+				$mail->AddAddress($user->email, $user->username);
+				$mail->AddReplyTo($cfg->get('admin_email'), $cfg->get('admin_from'));
+
+				$mail->Subject = 'Password reset request';
+				$this->view->assign_by_ref('user', $user);
+				$mail->Body = $this->view->fetch('mails/reset_passwd.tpl'); // you can use db:/
+				$mail->AltBody = Utils::mail_strip_html($mail->Body);
+				if ($mail->Send()) {
+					$this->view->showMessage("Check your email and reset the password");
+				} else {
+					$this->view->riseError("Cannot send mail");
+				}
+			} else {
+				$this->view->riseError('Cannot reset password');
+			}
+		}
 	}
 
+	public function resetPasswd()
+	{
+		$token = isset($this->params->id) ? $this->params->id : '';
+		if (empty($token)) {
+			Utils::Redirect('/users/passwdLost/'); // invalid token
+		}
+		$user = $this->model->getByToken($token);
+		if (!$user) {
+			Utils::Redirect('/users/passwdLost/'); // invalid token
+		}
+		$user = array_shift($user);
+		/** @var User $user */
+		$this->view->assign_by_ref('user', $user);
+		if (!empty($this->data)) {
+			// changing validating rules, model does not support groups yet //
+			$reset_passwd_rules['password'] = $this->model->validate['password'];
+			$reset_passwd_rules['re_password'] = $this->model->validate['re_password'];
+			$user->validate = $reset_passwd_rules;
+
+			if (!$user->validate($this->data)) {
+				$this->view->riseError("Cannot change password");
+			} else {
+				if($user->changePassword($this->data['password'])) {
+					$this->view->showMessage("Password was successfully changed!");
+				} else {
+					$this->view->riseError("Cannot change password");
+				}
+
+			}
+		}
+
+	}
 }
