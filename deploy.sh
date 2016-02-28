@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+#	Modify this file to deploy your project on production server
+#
 exit
 rsync -n -varlogpt --progress --exclude="include/conf.php" --exclude="tmp" \
 --exclude=".htpassw" --exclude=".htaccess" --exclude="htdocs/admin" \
