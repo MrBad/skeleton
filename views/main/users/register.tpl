@@ -25,13 +25,13 @@
 
 		<div class="pure-control-group">
 			<label for="password">Password:</label>
-			<input type="text" name="data[password]" id="password" value="{$password}">
+			<input type="password" name="data[password]" id="password" value="{$password}">
 			{if $err_msg.password}<div class="err_msg">{$err_msg.password}</div>{/if}
 		</div>
 
 		<div class="pure-control-group">
 			<label for="re_password">Repeat Password:</label>
-			<input type="text" name="data[re_password]" id="re_password" value="{$re_password}">
+			<input type="password" name="data[re_password]" id="re_password" value="{$re_password}">
 			{if $err_msg.re_password}<div class="err_msg">{$err_msg.re_password}</div>{/if}
 		</div>
 
