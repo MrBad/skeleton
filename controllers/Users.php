@@ -272,6 +272,7 @@ class Users extends Controller
 		/** @var User $user */
 		$this->view->assign_by_ref('user', $user);
 		if (!empty($this->data)) {
+
 			// changing validating rules, model does not support groups yet //
 			$reset_passwd_rules['password'] = $this->model->validate['password'];
 			$reset_passwd_rules['re_password'] = $this->model->validate['re_password'];

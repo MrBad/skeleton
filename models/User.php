@@ -139,22 +139,7 @@ class User extends Model
 			'required' => true,
 		]
 	];
-	public $reset_passwd_rules = [
-		'password' => [
-			[
-				'rule' => VALID_NOT_EMPTY,
-				'message' => 'Password cannot be left blank'
-			],
-			'required' => true,
-		],
-		're_password' => [
-			[
-				'rule' => ['passwordMatch', 'password'],
-				'message' => 'Passwords does not match'
-			],
-			'required' => true,
-		],
-	];
+
 
 	public function __construct()
 	{
