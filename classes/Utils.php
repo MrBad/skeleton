@@ -756,7 +756,7 @@ class Utils
 		return $ret;
 	}
 
-	function truncate($string, $length = 80, $etc = '...',
+	public static function truncate($string, $length = 80, $etc = '...',
 					  $break_words = false, $middle = false)
 	{
 		if ($length == 0)

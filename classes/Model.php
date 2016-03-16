@@ -1023,11 +1023,32 @@ class Model
 			}
 			$rel_table = empty($rel_table) ? $this->table_name . '_' . $lcParam : $rel_table;
 
-			$subQuery = "AND " . $lcParam . ".id IN (SELECT " . Inflector::singularize($lcParam) . "_id as rel_id FROM $rel_table WHERE " . Inflector::singularize($this->table_name) . "_id=" . $this->id . ")";
+			//
+			//	Seems it's faster to use an extra query to obtain id's and do an `AND var in (implode ids)` than do an `AND var in (SELECT...)`
+			//		These is because sometimes you can join first table with hundreds of rows to this sub-select and result stinks
+
+//			$subQuery = "AND " . $lcParam . ".id IN (SELECT " . Inflector::singularize($lcParam) . "_id as rel_id FROM $rel_table WHERE " . Inflector::singularize($this->table_name) . "_id=" . $this->id . ")";
+//			echo $subQuery;
+
+			$q = "SELECT " . Inflector::singularize($lcParam) . "_id as rel_id FROM $rel_table WHERE " . Inflector::singularize($this->table_name) . "_id=" . $this->id;
+			$ids = [];
+			if($sql->Query($q)) {
+				for($i = 0; $i < $sql->rows; $i++) {
+					$sql->GetRow($i);
+					$ids[] = $sql->data->rel_id;
+				}
+			}
+
 			$modelName = '\\Models\\' . Inflector::classify($lcParam);
 			$model = new $modelName;
 			$model->recursive = false;
-			$this->$param = (call_user_func(array(&$model, 'getAll'), 0, 0, null, $subQuery));
+
+			if(!empty($ids)) {
+				$subQuery = "AND " . $lcParam . ".id IN (".implode(',',$ids).")";
+				$this->$param = (call_user_func([&$model, 'getAll'], 0, 0, null, $subQuery));
+			} else {
+				$this->$param = [];
+			}
 
 			if ($fetch_rel_sup) {
 

@@ -92,7 +92,7 @@ class View extends MySmarty
 	/*
 	public function fetch($resource_name, $cache_id, $compile_id = null, $display = false){
 //		echo $this->lang;
-//		if ($this->lang == 'fr') {
+//		if ($this->lang == 'en') {
 			return parent::fetch($resource_name, $cache_id, $compile_id, $display);
 //		} else {
 //			$str = parent::fetch($resource_name, $cache_id, $compile_id, $display);

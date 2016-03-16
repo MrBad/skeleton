@@ -73,7 +73,7 @@ class RoBot
 	private $path = '';
 	private $query = '';
 	private $fragment = '';
-	private $implemented_schemes = array('http');
+	private $implemented_schemes = ['http'];
 
 	private $post_headers = array();
 
