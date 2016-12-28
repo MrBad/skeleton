@@ -833,6 +833,7 @@ class Model
 
 				if (!$res) {
 					$this->validates_errors[$param] = $message;
+					break; // no need to check other rules for this param
 				}
 			}
 		}
