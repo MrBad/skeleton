@@ -1,14 +1,14 @@
 {
-  "require": {
-	"smarty/smarty": "^3.1",
-	"ckeditor/ckeditor": "^4.5",
-    "phpmailer/phpmailer": "^5.2"
-  },
-  "autoload": {
-	"psr-4": {
-	  "Classes\\": "classes/",
-	  "Models\\": "models/",
-	  "Controllers\\": "controllers/"
+	"require": {
+		"smarty/smarty": "^3.1",
+		"ckeditor/ckeditor": "^4.6",
+		"phpmailer/phpmailer": "^5.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Classes\\": "classes/",
+			"Models\\": "models/",
+			"Controllers\\": "controllers/"
+		}
 	}
-  }
 }
